@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "fault": "SYNC",
+  "mode": 1,
+  "external": true,
+  "cycle": 2433551,
+  "state": "ISLAND",
+  "x": 1280,
+  "y": 0,
+  "reason": "HS width",
+  "actual": 1,
+  "expected": 40
+}

@@ -1,0 +1,21 @@
+{
+  "passed": false,
+  "fault": "CHANNEL",
+  "mode": 1,
+  "external": true,
+  "cycle": 2508087,
+  "state": "VIDEO",
+  "x": 27,
+  "y": 0,
+  "reason": "RGB mismatch",
+  "expected": [
+    48,
+    216,
+    255
+  ],
+  "actual": [
+    255,
+    216,
+    48
+  ]
+}

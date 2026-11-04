@@ -1,0 +1,36 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_sd_scan_timing "+INJECT_SCAN_BOUNDARY" -do "run -all; quit -f" 
+# Start time: 18:40:33 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_sd_scan_timing(fast)
+# run -all
+# SD_SCAN_CASE_PASS id=0 requests=6 found=0 differential
+# SD_SCAN_CASE_PASS id=1 requests=3 found=2 differential
+# SD_SCAN_CASE_PASS id=2 requests=4 found=4 differential
+# SD_SCAN_CASE_PASS id=3 requests=1 found=1 differential
+# SD_SCAN_CHECKER_REJECT found case=4 model=0 sector=131070
+# ** Fatal: scan boundary/validity/index mismatch
+#    Time: 190555 ns  Scope: tb_sd_scan_timing File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_sd_scan_timing.v Line: 291
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_sd_scan_timing.v(291)
+#    Time: 190555 ns  Iteration: 1  Instance: /tb_sd_scan_timing
+# End time: 18:40:35 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0

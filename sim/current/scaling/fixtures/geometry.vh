@@ -1,0 +1,12 @@
+src_w[0]=320;src_h[0]=240;src_lba[0]=0;src_sectors[0]=451;src_offset[0]=54;src_stride[0]=960;
+src_w[1]=640;src_h[1]=480;src_lba[1]=451;src_sectors[1]=1801;src_offset[1]=61;src_stride[1]=1920;
+src_w[2]=800;src_h[2]=600;src_lba[2]=2252;src_sectors[2]=2814;src_offset[2]=511;src_stride[2]=2400;
+src_w[3]=1024;src_h[3]=768;src_lba[3]=5066;src_sectors[3]=4610;src_offset[3]=1023;src_stride[3]=3072;
+src_w[4]=1280;src_h[4]=720;src_lba[4]=9676;src_sectors[4]=5401;src_offset[4]=54;src_stride[4]=3840;
+src_w[5]=1366;src_h[5]=768;src_lba[5]=15077;src_sectors[5]=6151;src_offset[5]=61;src_stride[5]=4100;
+src_w[6]=1600;src_h[6]=900;src_lba[6]=21228;src_sectors[6]=8439;src_offset[6]=511;src_stride[6]=4800;
+src_w[7]=1920;src_h[7]=1080;src_lba[7]=29667;src_sectors[7]=12152;src_offset[7]=1023;src_stride[7]=5760;
+src_w[8]=1080;src_h[8]=1920;src_lba[8]=41819;src_sectors[8]=12151;src_offset[8]=54;src_stride[8]=3240;
+src_w[9]=1920;src_h[9]=1200;src_lba[9]=53970;src_sectors[9]=13501;src_offset[9]=61;src_stride[9]=5760;
+src_w[10]=1919;src_h[10]=1079;src_lba[10]=67471;src_sectors[10]=12140;src_offset[10]=511;src_stride[10]=5760;
+src_w[11]=1920;src_h[11]=1920;src_lba[11]=79611;src_sectors[11]=21602;src_offset[11]=1023;src_stride[11]=5760;

@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:41:20 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\presentation_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_adjust.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_presentation_control.v 
+-- Compiling module presentation_control
+-- Compiling module video_adjust
+-- Compiling module tb_presentation_control
+
+Top level modules:
+	tb_presentation_control
+End time: 18:41:20 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

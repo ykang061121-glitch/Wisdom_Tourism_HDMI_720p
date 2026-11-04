@@ -1,0 +1,27 @@
+{
+  "RAW": "E:\\Documents\\Codex\\tourism_full_integration_20261027\\fixtures\\tourism_four_720.raw",
+  "RAW_SHA256": "B7D5FB544C685A7841366DF67B252526C6352B411A6740D98D75C6838B4FFE9A",
+  "Photos": [
+    {
+      "Scene": 0,
+      "LBA": 0,
+      "BMP_SHA256": "3DD3BCECE884F7976DFCEC4E3751AB424229AB22A2D90598E40578A4DE07AC35"
+    },
+    {
+      "Scene": 1,
+      "LBA": 5401,
+      "BMP_SHA256": "DDC673E817F4147D84FF7A717D2A3D077B8495AC6E58C1923F04B51FF8C0B689"
+    },
+    {
+      "Scene": 2,
+      "LBA": 10802,
+      "BMP_SHA256": "0126A1F040331C3BCCD86576FD65A39DE00C7C5710075BE972B2F901B582F13A"
+    },
+    {
+      "Scene": 3,
+      "LBA": 16203,
+      "BMP_SHA256": "4858F15CFC432B2782D42B246F4A8075A89A1363CBE6FCFD050B5B0DFBA49B5B"
+    }
+  ],
+  "Method": "Decode actual bottom-up BGR BMP to RGB stimulus; no UI/effect pixels drawn in Python"
+}

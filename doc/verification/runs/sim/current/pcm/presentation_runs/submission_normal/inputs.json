@@ -1,0 +1,103 @@
+{
+  "Project": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p",
+  "Negative": false,
+  "Scope": "Actual I2S PCM -> analysis -> mailbox -> enabled production presentation -> Chinese terminal; declared constant test background, no screenshot claim",
+  "Sources": [
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\image_melody_i2s.v",
+      "SHA256": "5EFCA81B9AF600537A528916EF437B9B9ED6F7F1BBECB9DEDF042B7BE134CFE5"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\image_audio_cdc.v",
+      "SHA256": "2EC2A25F360900700C0819115AD33AC38A8EF72A4A4627149BC0598DB14AD32D"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\melody_status_cdc.v",
+      "SHA256": "50A5C2A1AA663BCE4A055617F313B5F4EB7A8F64FAE2BBA5F81147A9A5FFAB01"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\I2S_receiver.v",
+      "SHA256": "08904598B42C2E1A4836CD9FB3293BC6C791EA2F79E35C7663A33127DC97F47B"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\audio_wave_capture.v",
+      "SHA256": "993475E4B95C79051636D1AD4CF801D44332EB830E9574FEDAA0951504F796E9"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\pcm_spectrum_dft512.v",
+      "SHA256": "A2921BA6A2E95A03B73081DEA7FAF853E229816760FC27661F8477381A7A4655"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\spectrum_snapshot_cdc.v",
+      "SHA256": "CFC45DB0115716308A4A9B824095C066D6413489D0ADD1859562A96946CDE112"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\scene_notice.v",
+      "SHA256": "C9B62313026667411861F058003752E3C988C4B79A74DA5356643E4AAA8D309D"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\showcase_music_overlay_spectrum.v",
+      "SHA256": "D39A3D59842798E0946B562AAF7921FDDC1FA837A7F5284BD04E0369BCB2F851"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\showcase_music_overlay_fast.v",
+      "SHA256": "E7ACF5135B88B6CE6156B1523B1DE606F919CC1EA99C4CE5BBB65404EBCF3A9A"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\dynamic_subtitle_overlay.v",
+      "SHA256": "56D15A06A1D5DEAD9329D9984465B58ACC9F9EC20FDD1DBF15908BEE8D0EB444"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\showcase_ui_pipeline.v",
+      "SHA256": "155B5C55D3597CCE785E4534DC90623C969E2D071940F020CDA97A9968F113BC"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\showcase_presentation_pipeline.v",
+      "SHA256": "F80DEE015F578A35659344437E189BDF8EF2B77D88F677E1DB0C863186826E04"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\fixed_chinese_layout.v",
+      "SHA256": "13EA6FE1F79A6F12C14C9400CCF7D9039F8E8AF2EB4967BD3D0CEBD6EA9CDDBD"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\fixed_chinese_row_rom.v",
+      "SHA256": "E6A0EC866645471E802D2D4A2FFFF0ADEC8575FAE9457EC76ACB341D6700558F"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\hdmi_diagnostic_overlay.v",
+      "SHA256": "0F14C93EC96DBAAB7FC40A7267C52F14BA4F5912ADD9B666203A27A0BA413C98"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\sim\\current\\pcm\\tb_real_pcm_presentation.sv",
+      "SHA256": "EA3D25A99A35DED20CA5FF3CEF8400931CEDE2FBFE69CC28F01CB684E92188F6"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\pcm_spectrum_tables.vh",
+      "SHA256": "2EC9C3ADC8998E01FB8865B4C4BE9A6A4EA19D69C74360CB4C176331ED0736E7"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\fixed_chinese_text_decode.vh",
+      "SHA256": "022105908A36C5E42E03E15ED94C3F3CA34F08D14CD7AFA762C6FACB070F1DB0"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\fixed_chinese16_init.vh",
+      "SHA256": "46B9E53A75995B83CEE3B5A08D2849E6117E7AD62E66906102C0C393A5367343"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\image_melody_pcm.v",
+      "SHA256": "107A775C49CFC154DDFDBDD6D53A78C19395264B8F1B761BE93241ABBE599743"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\image_melody_rom.v",
+      "SHA256": "48DECEB64BDF842AC70D441DB9C0A59F1BBC2F042CC33179C962AD66910CEBC7"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\subtitle_font_rom.v",
+      "SHA256": "8B944C46C3C7E16FC709E7AA7977B8A896C91FFD70A98458366EBB39285F91F2"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\subtitle_text_rom.v",
+      "SHA256": "FF64C9FBE5CDD65C27C36E590FF7F020CF43DD0B56B5E42BF383328FBFD37406"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_image_scaling -do "run -all; quit -f" 
+# Start time: 18:39:13 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2685) [TFMPC] - Too few port connections for 'write_buf'.  Expected 14, found 11.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2718) [TFMPC] - Missing connection for port 'aempty'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2718) [TFMPC] - Missing connection for port 'afull'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2718) [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2685) [TFMPC] - Too few port connections for 'read_buf'.  Expected 14, found 11.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2718) [TFMPC] - Missing connection for port 'aempty'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2718) [TFMPC] - Missing connection for port 'afull'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2718) [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2685) [TFMPC] - Too few port connections for 'source'.  Expected 40, found 33.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2718) [TFMPC] - Missing connection for port 'playback_error'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2718) [TFMPC] - Missing connection for port 'playback_progress'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2718) [TFMPC] - Missing connection for port 'osd_interval_code'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2718) [TFMPC] - Missing connection for port 'osd_scaling_meta'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2718) [TFMPC] - Missing connection for port 'video_busy_observed'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2718) [TFMPC] - Missing connection for port 'key_interval_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v(39): (vopt-2718) [TFMPC] - Missing connection for port 'key_auto_event'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_image_scaling(fast)
+# run -all
+# IMAGE_SCALING_320x240_PASS pixels=307200 all SDRAM addresses/RGB verified
+# IMAGE_SCALING_640x480_PASS pixels=307200 all SDRAM addresses/RGB verified
+# IMAGE_SCALING_800x600_PASS pixels=307200 all SDRAM addresses/RGB verified
+# IMAGE_SCALING_CANCEL_RETRY_PASS complete frame after partial SDRAM write
+# IMAGE_SCALING_GLOBAL_RESET_PASS complete frame after reset while FIFO full
+# IMAGE_SCALING_TEST_PASS full_stall_cycles=6012
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_image_scaling.v(220)
+#    Time: 130510285 ns  Iteration: 2  Instance: /tb_image_scaling
+# End time: 18:39:33 on Nov 03,2026, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 22

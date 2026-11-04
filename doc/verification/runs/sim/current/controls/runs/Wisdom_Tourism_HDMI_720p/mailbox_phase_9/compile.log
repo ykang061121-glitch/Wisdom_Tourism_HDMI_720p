@@ -1,0 +1,18 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:45:47 on Nov 03,2026
+vlog -sv E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_bmp.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_interval_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\presentation_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\adjustment_key_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\scaling_metadata_format.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\compliance_control_bridge.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\osd_status_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\controls\tb_compliance_control.v 
+-- Compiling module sd_card_bmp
+-- Compiling module key_press_debounce
+-- Compiling module playback_interval_control
+-- Compiling module presentation_control
+-- Compiling module adjustment_key_control
+-- Compiling module scaling_metadata_format
+-- Compiling module compliance_control_bridge
+-- Compiling module osd_status_cdc
+-- Compiling module tb_compliance_control
+
+Top level modules:
+	sd_card_bmp
+	tb_compliance_control
+End time: 18:45:47 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

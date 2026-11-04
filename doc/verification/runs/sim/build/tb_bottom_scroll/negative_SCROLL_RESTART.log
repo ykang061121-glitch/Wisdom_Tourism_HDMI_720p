@@ -1,0 +1,32 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_bottom_scroll "+INJECT_SCROLL_RESTART" -do "run -all; quit -f" 
+# Start time: 18:45:37 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_bottom_scroll(fast)
+# run -all
+# TRANSPARENT_CHECKER_REJECT SCROLL_STATE frame=401 offset=0 expected=200
+# ** Fatal: lost/injected restart, speed or tail wrap mismatch
+#    Time: 17680440100 ps  Scope: tb_bottom_scroll File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_bottom_scroll.v Line: 79
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_bottom_scroll.v(79)
+#    Time: 17680440100 ps  Iteration: 0  Instance: /tb_bottom_scroll
+# End time: 18:45:39 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0

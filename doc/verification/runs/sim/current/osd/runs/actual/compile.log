@@ -1,0 +1,20 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:42:30 on Nov 03,2026
+vlog -sv "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\td_project" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\fixtures" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_melody_rom.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_music_overlay_fast.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_music_overlay_spectrum.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\dynamic_subtitle_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\scene_notice.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_ui_pipeline.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_presentation_pipeline.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\osd\inputs\ui_frozen.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\osd\inputs\presentation_frozen.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\osd\tb_osd_layout.sv 
+-- Compiling module image_melody_rom
+-- Compiling module showcase_music_overlay_fast
+-- Compiling module showcase_music_overlay_spectrum
+-- Compiling module subtitle_text_rom
+-- Compiling module subtitle_font_rom
+-- Compiling module dynamic_subtitle_overlay
+-- Compiling module scene_notice
+-- Compiling module showcase_ui_pipeline
+-- Compiling module showcase_presentation_pipeline
+-- Compiling module showcase_ui_pipeline_frozen
+-- Compiling module showcase_presentation_pipeline_frozen
+-- Compiling module tb_osd_layout
+
+Top level modules:
+	tb_osd_layout
+End time: 18:42:30 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

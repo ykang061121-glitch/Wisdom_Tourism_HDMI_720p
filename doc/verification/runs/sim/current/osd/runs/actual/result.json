@@ -1,0 +1,12 @@
+{
+  "Case": "actual",
+  "Passed": true,
+  "Negative": false,
+  "Frames": 12,
+  "Pixels": 11059200,
+  "ChangedPixels": 38080,
+  "FirstMismatch": null,
+  "Checker": "Independent old-to-new coordinate mapping + recolor using immutable A_ONLY font mask; original RGB outside top row exact; original preUI image under relocated text; metadata8cycle and all state counters asserted in SV",
+  "HDMIHardwareTest": false,
+  "ControlledSpectrum": true
+}

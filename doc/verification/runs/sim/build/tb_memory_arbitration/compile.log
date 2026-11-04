@@ -1,0 +1,18 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:39:09 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_fifo_write.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_fifo_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\models\frame_fifo_write_baseline.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_memory_arbitration.v 
+-- Compiling module wfifo_32_32_512
+-- Compiling module fifo_cross_domain_addr_process_al_wfifo_32_32_512
+-- Compiling module ram_infer_wfifo_32_32_512
+-- Compiling module rfifo_32_32_512
+-- Compiling module fifo_cross_domain_addr_process_al_rfifo_32_32_512
+-- Compiling module ram_infer_rfifo_32_32_512
+-- Compiling module frame_fifo_write
+-- Compiling module frame_fifo_read
+-- Compiling module frame_fifo_write_baseline
+-- Compiling module tb_memory_arbitration
+
+Top level modules:
+	tb_memory_arbitration
+End time: 18:39:09 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

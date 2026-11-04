@@ -1,0 +1,42 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c -onfinish stop work.tb_strict_fade_slide -do "run -all;quit -f" 
+# Start time: 18:50:01 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_strict_fade_slide(fast)
+# run -all
+# STRICT_LAUNCH scene=0 ordinary=0 source=  K2
+# STRICT_SCENE_PASS scene=0 ordinary=0 style=0 commits=1 audio=0 title=0
+# STRICT_LAUNCH scene=1 ordinary=1 source=AUTO
+# STRICT_SCENE_PASS scene=1 ordinary=1 style=0 commits=2 audio=1 title=1
+# STRICT_LAUNCH scene=2 ordinary=2 source=  K2
+# STRICT_SCENE_PASS scene=2 ordinary=2 style=1 commits=3 audio=2 title=2
+# STRICT_LAUNCH scene=3 ordinary=3 source=AUTO
+# STRICT_TRANSITION_REJECT legacy WIPE selected during required FADE scene=3 ordinary=3 frame=71 state=2 fade=4 shift=0 effect=1 xy=1248,718 rgb=000000
+# ** Fatal: Assertion error.
+#    Time: 109710328 ps  Scope: tb_strict_fade_slide.fail File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/transitions/tb_strict_fade_slide.sv Line: 49
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/transitions/tb_strict_fade_slide.sv(49)
+#    Time: 109710328 ps  Iteration: 1  Instance: /tb_strict_fade_slide
+# Break at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/transitions/tb_strict_fade_slide.sv line 49
+# Stopped at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/transitions/tb_strict_fade_slide.sv line 49
+# quit -f
+# End time: 18:50:03 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0

@@ -1,0 +1,142 @@
+[
+  {
+    "index": 1,
+    "slug": "west_lake",
+    "title": "杭州西湖·断桥",
+    "filename": "West Lake 2025.06 02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:West_Lake_2025.06_02.jpg",
+    "author": "Shujianyang",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "original_resolution": "2400x1350",
+    "subtitle_en": [
+      "WEST LAKE",
+      "POETIC JIANGNAN"
+    ],
+    "music_theme": "江南水韵 / 温柔清新",
+    "bmp": "01_west_lake.bmp",
+    "bytes": 2764854,
+    "source_size": [
+      2400,
+      1350
+    ],
+    "verified_pixels": 921600,
+    "header": {
+      "offset": 54,
+      "DIB": 40,
+      "width": 1280,
+      "height": 720,
+      "planes": 1,
+      "bpp": 24,
+      "compression": 0
+    },
+    "source_SHA256": "749C2DBA1ABBA107C666AAEDA65381D3F4106B12A126E08BE52099423A51BC17",
+    "BMP_SHA256": "3DD3BCECE884F7976DFCEC4E3751AB424229AB22A2D90598E40578A4DE07AC35",
+    "full_pixel_BRG_bottom_up_check": "PASS"
+  },
+  {
+    "index": 2,
+    "slug": "forbidden_city",
+    "title": "北京故宫·全景",
+    "filename": "Forbidden City Panorama 2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Forbidden_City_Panorama_2.jpg",
+    "author": "Tojan76",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "original_resolution": "1920x1080",
+    "subtitle_en": [
+      "FORBIDDEN CITY",
+      "IMPERIAL HERITAGE"
+    ],
+    "music_theme": "古都礼乐 / 庄重大气",
+    "bmp": "02_forbidden_city.bmp",
+    "bytes": 2764854,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "verified_pixels": 921600,
+    "header": {
+      "offset": 54,
+      "DIB": 40,
+      "width": 1280,
+      "height": 720,
+      "planes": 1,
+      "bpp": 24,
+      "compression": 0
+    },
+    "source_SHA256": "B927094A0949A11B3F004DA24701714D5CA7FC3B757BD931A8B041A99B711C85",
+    "BMP_SHA256": "DDC673E817F4147D84FF7A717D2A3D077B8495AC6E58C1923F04B51FF8C0B689",
+    "full_pixel_BRG_bottom_up_check": "PASS"
+  },
+  {
+    "index": 3,
+    "slug": "potala_palace",
+    "title": "拉萨·布达拉宫",
+    "filename": "Potala-Palace.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Potala-Palace.jpg",
+    "author": "钉钉",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "original_resolution": "2048x1152",
+    "subtitle_en": [
+      "POTALA PALACE",
+      "SNOWLAND HERITAGE"
+    ],
+    "music_theme": "雪域回响 / 空灵辽阔",
+    "bmp": "03_potala_palace.bmp",
+    "bytes": 2764854,
+    "source_size": [
+      2048,
+      1152
+    ],
+    "verified_pixels": 921600,
+    "header": {
+      "offset": 54,
+      "DIB": 40,
+      "width": 1280,
+      "height": 720,
+      "planes": 1,
+      "bpp": 24,
+      "compression": 0
+    },
+    "source_SHA256": "5F54CD23AD5073B0B353D37DD2E749FD6144AEB1F3353494D7C23CDFCDF15B96",
+    "BMP_SHA256": "0126A1F040331C3BCCD86576FD65A39DE00C7C5710075BE972B2F901B582F13A",
+    "full_pixel_BRG_bottom_up_check": "PASS"
+  },
+  {
+    "index": 4,
+    "slug": "terracotta_army",
+    "title": "西安·秦始皇兵马俑",
+    "filename": "Terracotta Army - Pit 1 in 2026.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Terracotta_Army_-_Pit_1_in_2026.jpg",
+    "author": "Renek78",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "original_resolution": "4096x2304",
+    "subtitle_en": [
+      "TERRACOTTA ARMY",
+      "ANCIENT CIVILIZATION"
+    ],
+    "music_theme": "秦风史诗 / 厚重有力",
+    "bmp": "04_terracotta_army.bmp",
+    "bytes": 2764854,
+    "source_size": [
+      4096,
+      2304
+    ],
+    "verified_pixels": 921600,
+    "header": {
+      "offset": 54,
+      "DIB": 40,
+      "width": 1280,
+      "height": 720,
+      "planes": 1,
+      "bpp": 24,
+      "compression": 0
+    },
+    "source_SHA256": "23B24503BD1524D9BC00F83D3941C99020290ACFB8F74A825230CE2FCE2CF28A",
+    "BMP_SHA256": "4858F15CFC432B2782D42B246F4A8075A89A1363CBE6FCFD050B5B0DFBA49B5B",
+    "full_pixel_BRG_bottom_up_check": "PASS"
+  }
+]

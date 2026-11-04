@@ -1,0 +1,6 @@
+PASS tb_large_bmp -gMODE=0 +RAW=E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\fixtures\all_twelve.raw
+PASS tb_large_bmp -gMODE=0 +RAW=E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\fixtures\all_twelve.raw +BAD_PIXEL
+PASS tb_generic_scaler -gMODE=0
+PASS tb_generic_scaler -gMODE=1
+PASS tb_generic_scaler -gMODE=2
+PASS tb_bmp720_errors +RAW=E:\FPGA\Wisdom_Tourism_HDMI_720p/doc/TF_card/tourism_720p.raw

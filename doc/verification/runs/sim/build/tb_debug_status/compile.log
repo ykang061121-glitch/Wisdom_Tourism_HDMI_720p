@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:38:50 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\debug_status.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_debug_status.v 
+-- Compiling module debug_status
+-- Compiling module tb_debug_status
+
+Top level modules:
+	tb_debug_status
+End time: 18:38:50 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

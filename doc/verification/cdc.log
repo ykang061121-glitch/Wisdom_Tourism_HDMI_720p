@@ -1,0 +1,6 @@
+PASS CDC phase 0
+PASS CDC phase 7
+PASS CDC phase 19
+PASS CDC phase 39
+PASS negative CDC TORN_CDC
+PASS negative CDC EARLY_READY

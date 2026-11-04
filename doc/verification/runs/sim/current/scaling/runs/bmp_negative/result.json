@@ -1,0 +1,13 @@
+{
+  "Passed": true,
+  "Negative": true,
+  "Top": "tb_large_bmp",
+  "Options": [
+    "-gMODE=0",
+    "+RAW=E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\sim\\current\\scaling\\fixtures\\all_twelve.raw",
+    "+BAD_PIXEL"
+  ],
+  "ExitCode": 0,
+  "Project": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p",
+  "Time": "2026-11-03T18:48:54.3303262+08:00"
+}

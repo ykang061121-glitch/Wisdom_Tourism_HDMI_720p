@@ -1,0 +1,30 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:39:12 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\debug_status.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\sd_sector_buffer.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\bmp_pixel_decoder.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_scaler.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\frame_completion_guard.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\bmp_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_bmp.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_fifo_write.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_fifo_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fade_transition_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fade_transition_ctrl.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_scaling.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_interval_control.v 
+-- Compiling module debug_status
+-- Compiling module sd_sector_buffer
+-- Compiling module bmp_pixel_decoder
+-- Compiling module image_scaler
+-- Compiling module frame_completion_guard
+-- Compiling module bmp_read
+-- Compiling module sd_card_bmp
+-- Compiling module key_press_debounce
+-- Compiling module wfifo_32_32_512
+-- Compiling module fifo_cross_domain_addr_process_al_wfifo_32_32_512
+-- Compiling module ram_infer_wfifo_32_32_512
+-- Compiling module rfifo_32_32_512
+-- Compiling module fifo_cross_domain_addr_process_al_rfifo_32_32_512
+-- Compiling module ram_infer_rfifo_32_32_512
+-- Compiling module frame_fifo_write
+-- Compiling module frame_fifo_read
+-- Compiling module frame_read_write
+-- Compiling module fade_transition_cdc
+-- Compiling module fade_transition_ctrl
+-- Compiling module tb_image_scaling
+-- Compiling module sd_card_top
+-- Compiling module playback_interval_control
+
+Top level modules:
+	tb_image_scaling
+End time: 18:39:12 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

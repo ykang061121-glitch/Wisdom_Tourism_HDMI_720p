@@ -1,0 +1,54 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_subtitle_composition -do "run -all; quit -f" 
+# Start time: 18:40:20 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(51): (vopt-2685) [TFMPC] - Too few port connections for 'subtitles'.  Expected 19, found 18.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(51): (vopt-2718) [TFMPC] - Missing connection for port 'scene_image'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(55): (vopt-2685) [TFMPC] - Too few port connections for 'status_text'.  Expected 17, found 13.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(55): (vopt-2718) [TFMPC] - Missing connection for port 'wave_visible'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(55): (vopt-2718) [TFMPC] - Missing connection for port 'subtitles_visible'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(55): (vopt-2718) [TFMPC] - Missing connection for port 'preset_mode'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(55): (vopt-2718) [TFMPC] - Missing connection for port 'interval_code'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(60): (vopt-2685) [TFMPC] - Too few port connections for 'overlap_probe'.  Expected 17, found 13.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(60): (vopt-2718) [TFMPC] - Missing connection for port 'wave_visible'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(60): (vopt-2718) [TFMPC] - Missing connection for port 'subtitles_visible'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(60): (vopt-2718) [TFMPC] - Missing connection for port 'preset_mode'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_subtitle_composition.v(60): (vopt-2718) [TFMPC] - Missing connection for port 'interval_code'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_subtitle_composition(fast)
+# run -all
+# SUBTITLE_COMPOSITION_TEST_PASS full_frames=8 active_pixels=2457600 window_commits=3 overlap_checks=8 black_text_pixels=4618 real_800x525_timing audio_and_no_audio
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_subtitle_composition.v(203)
+#    Time: 134690040 ns  Iteration: 1  Instance: /tb_subtitle_composition
+# End time: 18:40:26 on Nov 03,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 12

@@ -1,0 +1,64 @@
+# vsim -c -onfinish stop work.tb_generic_scaler -gMODE=1 -do "run -all;quit -f" 
+# Start time: 18:50:12 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\tb_generic_scaler.v(17): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 18, found 16.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\tb_generic_scaler.v(17): (vopt-2718) [TFMPC] - Missing connection for port 'content_height'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\tb_generic_scaler.v(17): (vopt-2718) [TFMPC] - Missing connection for port 'content_width'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_generic_scaler(fast)
+# run -all
+# GENERIC_FULL_FRAME_PASS mode=1 source=320x240 input=76800 output=921600 cycles=3659069
+# GENERIC_FULL_FRAME_PASS mode=1 source=640x480 input=307200 output=921600 cycles=3919649
+# GENERIC_FULL_FRAME_PASS mode=1 source=800x600 input=480000 output=921600 cycles=4117789
+# GENERIC_FULL_FRAME_PASS mode=1 source=1280x720 input=921600 output=921600 cycles=4622407
+# GENERIC_FULL_FRAME_PASS mode=1 source=321x241 input=77361 output=921600 cycles=3659942
+# GENERIC_FULL_FRAME_PASS mode=1 source=853x480 input=409440 output=921600 cycles=4037309
+# GENERIC_FULL_FRAME_PASS mode=1 source=854x481 input=410774 output=921600 cycles=4039844
+# GENERIC_FULL_FRAME_PASS mode=1 source=855x482 input=412110 output=921600 cycles=4042269
+# GENERIC_FULL_FRAME_PASS mode=1 source=1024x640 input=655360 output=921600 cycles=4315727
+# GENERIC_FULL_FRAME_PASS mode=1 source=480x800 input=384000 output=921600 cycles=4012294
+# GENERIC_FULL_FRAME_PASS mode=1 source=479x801 input=383679 output=921600 cycles=4010560
+# GENERIC_FULL_FRAME_PASS mode=1 source=16x16 input=256 output=921600 cycles=3571806
+# GENERIC_FULL_FRAME_PASS mode=1 source=17x31 input=527 output=921600 cycles=3571337
+# GENERIC_FULL_FRAME_PASS mode=1 source=1280x1024 input=1310720 output=921600 cycles=5068325
+# GENERIC_FULL_FRAME_PASS mode=1 source=16x1024 input=16384 output=921600 cycles=3588629
+# GENERIC_FULL_FRAME_PASS mode=1 source=1280x16 input=20480 output=921600 cycles=3594806
+# GENERIC_FULL_FRAME_PASS mode=1 source=1024x768 input=786432 output=921600 cycles=4465042
+# GENERIC_FULL_FRAME_PASS mode=1 source=1366x768 input=1049088 output=921600 cycles=4767861
+# GENERIC_FULL_FRAME_PASS mode=1 source=1600x900 input=1440000 output=921600 cycles=5214752
+# GENERIC_FULL_FRAME_PASS mode=1 source=1920x1080 input=2073600 output=921600 cycles=5943108
+# GENERIC_FULL_FRAME_PASS mode=1 source=1080x1920 input=2073600 output=921600 cycles=5939019
+# GENERIC_FULL_FRAME_PASS mode=1 source=1920x1200 input=2304000 output=921600 cycles=6206301
+# GENERIC_FULL_FRAME_PASS mode=1 source=1919x1079 input=2070601 output=921600 cycles=5939156
+# GENERIC_FULL_FRAME_PASS mode=1 source=1920x1920 input=3686400 output=921600 cycles=7787067
+# GENERIC_FULL_FRAME_PASS mode=1 source=16x1920 input=30720 output=921600 cycles=3606148
+# GENERIC_FULL_FRAME_PASS mode=1 source=1920x16 input=30720 output=921600 cycles=3606575
+# GENERIC_FULL_FRAME_PASS mode=1 source=21x1920 input=40320 output=921600 cycles=3618130
+# GENERIC_FULL_FRAME_PASS mode=1 source=17x31 input=527 output=921600 cycles=3571892
+# GENERIC_FULL_FRAME_PASS mode=1 source=321x241 input=77361 output=921600 cycles=3660947
+# GENERIC_SCALER_TEST_PASS mode=1 full_frames=29 pixels=26726400
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/scaling/tb_generic_scaler.v(119)
+#    Time: 1281691220 ns  Iteration: 1  Instance: /tb_generic_scaler
+# Break at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/scaling/tb_generic_scaler.v line 119
+# Stopped at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/scaling/tb_generic_scaler.v line 119
+# quit -f
+# End time: 18:51:41 on Nov 03,2026, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 3

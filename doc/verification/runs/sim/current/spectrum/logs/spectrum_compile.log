@@ -1,0 +1,12 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:46:49 on Nov 03,2026
+vlog -sv "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\pcm_spectrum_dft512.v tb_spectrum.v tb_streaming.v 
+-- Compiling module pcm_spectrum_dft512
+-- Compiling module tb_spectrum
+-- Compiling module tb_streaming
+
+Top level modules:
+	tb_spectrum
+	tb_streaming
+End time: 18:46:49 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

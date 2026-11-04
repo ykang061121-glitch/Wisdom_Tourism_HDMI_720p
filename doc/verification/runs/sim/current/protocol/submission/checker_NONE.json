@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "mode": 1,
+  "external": true,
+  "frames": 10,
+  "pixel_checks": 9216000,
+  "lock_cycle": 2433550,
+  "packets": 26928,
+  "AVI": 12,
+  "HTOTAL": 1650,
+  "VTOTAL": 750,
+  "active": [
+    1280,
+    720
+  ],
+  "HS_LOW": 40,
+  "VS_LOW": 5,
+  "TMDS_encoding_checks": 30324480,
+  "frame_SHA256": [
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626",
+    "6ccca82be6cdf1c198304ffe79fbe17c01c23326ac2022973c6741001b8ab626"
+  ],
+  "video_line_lengths": {
+    "1280": 8617
+  },
+  "preambles": {
+    "('ISLAND', 8)": 8976,
+    "('VIDEO', 1189296)": 1,
+    "('VIDEO', 8)": 8616
+  },
+  "VideoDataGuardLikeTriples": 0,
+  "FirstVideoDataGuardLikeCycle": null
+}

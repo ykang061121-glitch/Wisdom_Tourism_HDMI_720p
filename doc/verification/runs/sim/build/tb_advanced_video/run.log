@@ -1,0 +1,63 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_advanced_video -do "run -all; quit -f" 
+# Start time: 18:45:57 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(49): (vopt-2685) [TFMPC] - Too few port connections for 'layers'.  Expected 31, found 30.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'error_status'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(57): (vopt-2685) [TFMPC] - Too few port connections for 'frozen_layers'.  Expected 31, found 30.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(57): (vopt-2718) [TFMPC] - Missing connection for port 'error_status'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(65): (vopt-2685) [TFMPC] - Too few port connections for 'timer1'.  Expected 11, found 10.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(65): (vopt-2718) [TFMPC] - Missing connection for port 'key_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(68): (vopt-2685) [TFMPC] - Too few port connections for 'timer5'.  Expected 11, found 10.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_advanced_video.v(68): (vopt-2718) [TFMPC] - Missing connection for port 'key_event'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_advanced_video(fast)
+# Loading work.showcase_presentation(fast)
+# run -all
+# RTL_FRAME_CAPTURE name=effect0_step0 image=0 mode=0 step=0 fade=0 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step2 image=0 mode=0 step=2 fade=1 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step4 image=0 mode=0 step=4 fade=2 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step6 image=0 mode=0 step=6 fade=3 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step8 image=0 mode=0 step=8 fade=4 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=forest_stable image=0 mode=0 step=8 fade=4 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_out_step6 image=0 mode=0 step=6 fade=3 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_out_step4 image=0 mode=0 step=4 fade=2 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_out_step2 image=0 mode=0 step=2 fade=1 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step0 image=1 mode=0 step=0 fade=0 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step2 image=1 mode=0 step=2 fade=1 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step4 image=1 mode=0 step=4 fade=2 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step6 image=1 mode=0 step=6 fade=3 progress=0 pixels=307200
+# RTL_FRAME_CAPTURE name=effect0_step8 image=1 mode=0 step=8 fade=4 progress=0 pixels=307200
+# ADVANCED_CHECKER_REJECT VIDEO_MASK
+# ** Fatal: full frame mask mismatch or tearing
+#    Time: 237907260100 ps  Scope: tb_advanced_video File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_advanced_video.v Line: 99
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_advanced_video.v(99)
+#    Time: 237907260100 ps  Iteration: 0  Instance: /tb_advanced_video
+# End time: 18:46:21 on Nov 03,2026, Elapsed time: 0:00:24
+# Errors: 1, Warnings: 8

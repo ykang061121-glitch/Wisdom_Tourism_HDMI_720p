@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:45:29 on Nov 03,2026
+vlog -sv E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_interval_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_bmp.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\controls\tb_playback_interval.v 
+-- Compiling module playback_interval_control
+-- Compiling module sd_card_bmp
+-- Compiling module key_press_debounce
+-- Compiling module tb_playback_interval
+
+Top level modules:
+	sd_card_bmp
+	tb_playback_interval
+End time: 18:45:29 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

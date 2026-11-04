@@ -1,0 +1,15 @@
+{
+  "Project": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p",
+  "Sources": [
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\video_adjust_percent.v",
+      "SHA256": "870C9B24EFDA19D46D3B9CACDF23F0C43B0E075830880395A8AF342CBB52194F"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\sim\\current\\controls\\tb_adjust_percent.v",
+      "SHA256": "8480E472A603DB12C68D0DB5C65BD7591279753795D1B1BB05FFA9C41C6F5D5C"
+    }
+  ],
+  "Parameters": [],
+  "Boundary": "Component digital RTL only; not integrated top, routed retention, metastability or hardware signoff"
+}

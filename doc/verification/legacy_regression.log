@@ -1,0 +1,178 @@
+PASS video timing
+PASS bmp read
+PASS i2s loopback
+PASS key debounce
+PASS debug status
+PASS osd overlay
+PASS video adjust
+PASS video fade
+PASS fade transition
+PASS write ack
+PASS memory arbitration
+PASS image scaling
+PASS negative PIXEL (checker rejected fault)
+PASS negative COORD (checker rejected fault)
+PASS negative COUNT (checker rejected fault)
+PASS bmp stream
+PASS frame completion
+PASS scaler control
+PASS audio wave capture
+PASS negative audio SIGN (checker rejected fault)
+PASS audio wave overlay
+PASS audio wave link
+PASS audio wave video
+PASS dynamic subtitle
+PASS negative subtitle PIXEL (checker rejected fault)
+PASS negative subtitle SCROLL (checker rejected fault)
+PASS subtitle composition
+PASS sd scan timing
+PASS negative scan ADVANCE (checker rejected fault)
+PASS negative scan BOUNDARY (checker rejected fault)
+PASS image melody
+PASS negative melody PITCH (checker rejected fault)
+PASS image audio cdc
+PASS image audio link
+PASS negative image BINDING (checker rejected fault)
+PASS image audio video
+PASS playback interval
+PASS negative interaction INTERVAL
+PASS presentation control
+PASS negative interaction PRESET
+PASS interaction osd
+PASS negative interaction OSD_STATUS
+PASS interaction link
+PASS negative interaction AUTO_BUSY
+PASS presentation video
+PASS negative interaction LAYER
+PASS melody status
+PASS negative showcase VIS_STEP
+PASS negative showcase VIS_MELODY
+PASS scene notice
+PASS negative showcase NOTICE_EARLY
+PASS music panel
+PASS showcase video
+PASS negative showcase VIS_HIDDEN
+PASS showcase commit
+PASS compact notice
+PASS negative compact HINT_STUCK
+PASS negative compact PROMPT_FLICKER
+PASS compact layout
+PASS negative compact CENTRE_PLATE
+PASS negative compact SUB_SHADOW
+PASS transparent osd
+PASS negative transparent OPAQUE_TOP
+PASS negative transparent FADE_FLASH
+PASS negative transparent TOP_OUTLINE
+PASS negative transparent TOP_WHITE
+PASS bottom scroll
+PASS negative transparent SCROLL_RESTART
+PASS playback progress
+PASS negative advanced PROGRESS_DESYNC
+PASS negative advanced PROGRESS_LAYER
+PASS playback progress exact
+FAIL picture transitions
+FAIL advanced video
+FAIL playback recovery
+PASS playback error osd
+PASS negative recovery ERROR_PLATE
+PASS negative recovery ERROR_GLYPH
+PASS progress commit sync
+PASS negative polish HOLD_DROP
+PASS negative polish RESET_AT_COMMIT
+PASS negative polish STALE_BAR
+PASS progress commit shifted
+PASS osd progress full raster
+FAIL two alternating transitions
+FAIL tourism video
+PASS tourism input compatibility
+PASS negative tourism INPUT_ACCEPT
+
+Regression summary:
+PASS video timing - VIDEO_TIMING_TEST_PASS
+PASS bmp read - BMP_READ_TEST_PASS
+PASS i2s loopback - I2S_LOOPBACK_TEST_PASS
+PASS key debounce - KEY_DEBOUNCE_TEST_PASS
+PASS debug status - DEBUG_STATUS_TEST_PASS
+PASS osd overlay - OSD_OVERLAY_TEST_PASS
+PASS video adjust - VIDEO_ADJUST_TEST_PASS
+PASS video fade - VIDEO_FADE_TEST_PASS
+PASS fade transition - FADE_TRANSITION_TEST_PASS
+PASS write ack - WRITE_ACK_TEST_PASS
+PASS memory arbitration - MEMORY_ARBITRATION_TEST_PASS
+PASS image scaling - IMAGE_SCALING_TEST_PASS
+PASS negative PIXEL - injected fault must be rejected
+PASS negative COORD - injected fault must be rejected
+PASS negative COUNT - injected fault must be rejected
+PASS bmp stream - BMP_STREAM_TEST_PASS
+PASS frame completion - FRAME_COMPLETION_TEST_PASS
+PASS scaler control - SCALER_CONTROL_TEST_PASS
+PASS audio wave capture - AUDIO_WAVE_CAPTURE_TEST_PASS
+PASS negative audio SIGN - injected sign fault must be rejected
+PASS audio wave overlay - AUDIO_WAVE_OVERLAY_TEST_PASS
+PASS audio wave link - AUDIO_WAVE_LINK_TEST_PASS
+PASS audio wave video - AUDIO_WAVE_VIDEO_TEST_PASS
+PASS dynamic subtitle - DYNAMIC_SUBTITLE_TEST_PASS
+PASS negative subtitle PIXEL - injected subtitle fault must be rejected
+PASS negative subtitle SCROLL - injected subtitle fault must be rejected
+PASS subtitle composition - SUBTITLE_COMPOSITION_TEST_PASS
+PASS sd scan timing - SD_SCAN_TIMING_TEST_PASS
+PASS negative scan ADVANCE - injected scan fault must be rejected
+PASS negative scan BOUNDARY - injected scan fault must be rejected
+PASS image melody - IMAGE_MELODY_TEST_PASS
+PASS negative melody PITCH - wrong pitch must be rejected
+PASS image audio cdc - IMAGE_AUDIO_CDC_TEST_PASS
+PASS image audio link - IMAGE_AUDIO_LINK_TEST_PASS
+PASS negative image BINDING - wrong melody binding must be rejected
+PASS image audio video - IMAGE_AUDIO_VIDEO_TEST_PASS
+PASS playback interval - PLAYBACK_INTERVAL_TEST_PASS
+PASS negative interaction INTERVAL - injected interaction fault must be rejected
+PASS presentation control - PRESENTATION_CONTROL_TEST_PASS
+PASS negative interaction PRESET - injected interaction fault must be rejected
+PASS interaction osd - INTERACTION_OSD_TEST_PASS
+PASS negative interaction OSD_STATUS - injected interaction fault must be rejected
+PASS interaction link - INTERACTION_LINK_TEST_PASS
+PASS negative interaction AUTO_BUSY - injected interaction fault must be rejected
+PASS presentation video - PRESENTATION_VIDEO_TEST_PASS
+PASS negative interaction LAYER - injected interaction fault must be rejected
+PASS melody status - MELODY_STATUS_TEST_PASS
+PASS negative showcase VIS_STEP - injected showcase fault must be rejected
+PASS negative showcase VIS_MELODY - injected showcase fault must be rejected
+PASS scene notice - SCENE_NOTICE_TEST_PASS
+PASS negative showcase NOTICE_EARLY - injected showcase fault must be rejected
+PASS music panel - MUSIC_PANEL_TEST_PASS
+PASS showcase video - SHOWCASE_VIDEO_TEST_PASS
+PASS negative showcase VIS_HIDDEN - injected showcase fault must be rejected
+PASS showcase commit - SHOWCASE_COMMIT_TEST_PASS
+PASS compact notice - COMPACT_NOTICE_TEST_PASS
+PASS negative compact HINT_STUCK - compact checker must reject injected fault
+PASS negative compact PROMPT_FLICKER - compact checker must reject injected fault
+PASS compact layout - COMPACT_LAYOUT_TEST_PASS
+PASS negative compact CENTRE_PLATE - compact checker must reject injected fault
+PASS negative compact SUB_SHADOW - compact checker must reject injected fault
+PASS transparent osd - TRANSPARENT_OSD_TEST_PASS
+PASS negative transparent OPAQUE_TOP - actual old-RTL/outline/scroll fault must be rejected
+PASS negative transparent FADE_FLASH - actual old-RTL/outline/scroll fault must be rejected
+PASS negative transparent TOP_OUTLINE - actual old-RTL/outline/scroll fault must be rejected
+PASS negative transparent TOP_WHITE - actual old-RTL/outline/scroll fault must be rejected
+PASS bottom scroll - BOTTOM_SCROLL_TEST_PASS
+PASS negative transparent SCROLL_RESTART - actual old-RTL/outline/scroll fault must be rejected
+PASS playback progress - PLAYBACK_PROGRESS_TEST_PASS
+PASS negative advanced PROGRESS_DESYNC - new feature fault must be detected
+PASS negative advanced PROGRESS_LAYER - new feature fault must be detected
+PASS playback progress exact - PLAYBACK_PROGRESS_TEST_PASS
+FAIL picture transitions - run failed or PASS marker absent (exit=0)
+FAIL advanced video - run failed or PASS marker absent (exit=0)
+FAIL playback recovery - run failed or PASS marker absent (exit=0)
+PASS playback error osd - PLAYBACK_ERROR_OSD_TEST_PASS
+PASS negative recovery ERROR_PLATE - recovery checker must reject fault
+PASS negative recovery ERROR_GLYPH - recovery checker must reject fault
+PASS progress commit sync - PROGRESS_COMMIT_SYNC_TEST_PASS
+PASS negative polish HOLD_DROP - visual lifecycle fault must be rejected
+PASS negative polish RESET_AT_COMMIT - visual lifecycle fault must be rejected
+PASS negative polish STALE_BAR - visual lifecycle fault must be rejected
+PASS progress commit shifted - PROGRESS_COMMIT_SYNC_TEST_PASS
+PASS osd progress full raster - OSD_PROGRESS_POLISH_TEST_PASS
+FAIL two alternating transitions - run failed or PASS marker absent (exit=0)
+FAIL tourism video - run failed or PASS marker absent (exit=0)
+PASS tourism input compatibility - TOURISM_INPUT_GATE_TEST_PASS
+PASS negative tourism INPUT_ACCEPT - independent checker rejects incorrect effect/event/text

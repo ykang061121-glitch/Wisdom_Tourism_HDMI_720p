@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:45:13 on Nov 03,2026
+vlog -sv E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\adjustment_key_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\controls\tb_adjust_keys_v2.v 
+-- Compiling module adjustment_key_control
+-- Compiling module tb_adjust_keys_v2
+
+Top level modules:
+	tb_adjust_keys_v2
+End time: 18:45:13 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

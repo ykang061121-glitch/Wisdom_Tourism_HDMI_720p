@@ -1,0 +1,42 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_transparent_osd -do "run -all; quit -f" 
+# Start time: 18:44:40 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_transparent_osd.v(19): (vopt-2685) [TFMPC] - Too few port connections for 'ui'.  Expected 30, found 29.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_transparent_osd.v(19): (vopt-2718) [TFMPC] - Missing connection for port 'error_status'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_transparent_osd.v(29): (vopt-2685) [TFMPC] - Too few port connections for 'old_palette'.  Expected 30, found 29.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_transparent_osd.v(29): (vopt-2718) [TFMPC] - Missing connection for port 'error_status'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_transparent_osd.v(41): (vopt-2685) [TFMPC] - Too few port connections for 'without_fade'.  Expected 30, found 29.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_transparent_osd.v(41): (vopt-2718) [TFMPC] - Missing connection for port 'error_status'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_transparent_osd(fast)
+# run -all
+# TRANSPARENT_OSD_TEST_PASS pixels=1502909 music_equivalent=571648 non_glyph_top=289656 no_prompt=61440 all_32_notes white_dark all_controls no_fade
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_transparent_osd.v(139)
+#    Time: 15029170 ns  Iteration: 1  Instance: /tb_transparent_osd
+# End time: 18:44:49 on Nov 03,2026, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 6

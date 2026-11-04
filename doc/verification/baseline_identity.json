@@ -1,0 +1,15 @@
+{
+  "Project": "Wisdom Tourism HDMI Multimedia Terminal",
+  "Baseline": "hardware-confirmed compact OSD",
+  "BitSHA256": "85FAF68CAEA63841E7C3C58B98B6F484FF777D89A59C4620B05D12BDA5DF5B30",
+  "ProductionInputs": 139,
+  "AllProductionInputsExact": true,
+  "PackagingChangesOnly": [
+    "relative-path simulation and build launchers",
+    "restored GUI .al entry from production PRJ and official project shell",
+    "formal folder and output names"
+  ],
+  "RTLChanged": false,
+  "ConstraintsChanged": false,
+  "NewPlaceRoutePerformed": false
+}

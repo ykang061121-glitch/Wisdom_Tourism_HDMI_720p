@@ -1,0 +1,28 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:46:44 on Nov 03,2026
+vlog -sv -work work "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_bmp.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\bmp_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\sd_sector_buffer.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\bmp_pixel_decoder.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_scaler.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\frame_completion_guard.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\debug_status.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_interval_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fade_transition_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fade_transition_ctrl.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_fade.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\picture_transition.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\osd_status_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_progress_display.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_progress_commit_sync.v 
+-- Compiling module sd_card_bmp
+-- Compiling module key_press_debounce
+-- Compiling module bmp_read
+-- Compiling module sd_sector_buffer
+-- Compiling module bmp_pixel_decoder
+-- Compiling module image_scaler
+-- Compiling module frame_completion_guard
+-- Compiling module debug_status
+-- Compiling module playback_interval_control
+-- Compiling module fade_transition_cdc
+-- Compiling module fade_transition_ctrl
+-- Compiling module video_fade
+-- Compiling module picture_transition
+-- Compiling module osd_status_cdc
+-- Compiling module playback_progress_display
+-- Compiling module progress_commit_case
+-- Compiling module tb_progress_commit_sync
+-- Compiling module tb_progress_commit_shift
+-- Compiling module sd_card_top
+
+Top level modules:
+	tb_progress_commit_sync
+	tb_progress_commit_shift
+End time: 18:46:44 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

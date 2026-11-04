@@ -1,0 +1,23 @@
+{
+  "Netlist": "E:\\Documents\\Codex\\tourism_m5_clean_osd_20261028\\osd_layout\\src\\td_project\\HDMI1.4b_Transmitter_v1.0_Runs\\phy_1\\diagnostic_route_before_hold.v",
+  "SHA256": "4F447E087B305EC2126BB984596546C8827DFBD8678D56629B05720F7B5679F8",
+  "VideoClockProof": {
+    "PLL": "video_pll_m0/candidate/pll_inst",
+    "Output": "clkc[1]",
+    "Net": "spectrum_display_snapshot_m0/video_clk",
+    "Port": "{open_n166544,open_n166545,\\u_hdmi2phy_wrapper/u0_lane_lvds_8_1/I_serial_clk ,\\spectrum_display_snapshot_m0/video_clk ,\\video_pll_m0/candidate/clocks [0]}"
+  },
+  "LogicalResetFFs": [
+    "frame_read_write_m0/read_buf/asy_r_rst0",
+    "frame_read_write_m0/read_buf/ram_inst/rstb"
+  ],
+  "Cells": [
+    {
+      "Cell": "frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_4",
+      "Q": "{\\frame_read_write_m0/read_buf/ram_inst/rstb ,\\frame_read_write_m0/read_buf/asy_r_rst0 }",
+      "MI": "{\\frame_read_write_m0/read_buf/asy_r_rst0 ,1'b0}",
+      "SR": "\\frame_read_write_m0/frame_fifo_read_m0/fifo_clear_holdbuf3 ",
+      "Snippet": "  // ../../../user_source/hdl_source/ip/afifo_32_16_256.v(131)\n  EG_PHY_LSLICE #(\n    .CEMUX(\"1\"),\n    .CLKMUX(\"CLK\"),\n    .DFFMODE(\"FF\"),\n    .REG0_REGSET(\"SET\"),\n    .REG0_SD(\"MI\"),\n    .REG1_REGSET(\"SET\"),\n    .REG1_SD(\"MI\"),\n    .SRMODE(\"ASYNC\"),\n    .SRMUX(\"SR\"))\n    \\frame_read_write_m0/read_buf/asy_r_rst1_reg_syn_4  (\n    .clk(\\spectrum_display_snapshot_m0/video_clk ),\n    .mi({\\frame_read_write_m0/read_buf/asy_r_rst0 ,1'b0}),\n    .sr(\\frame_read_write_m0/frame_fifo_read_m0/fifo_clear_holdbuf3 ),\n    .q({\\frame_read_write_m0/read_buf/ram_inst/rstb ,\\frame_read_write_m0/read_buf/asy_r_rst0 }));"
+    }
+  ]
+}

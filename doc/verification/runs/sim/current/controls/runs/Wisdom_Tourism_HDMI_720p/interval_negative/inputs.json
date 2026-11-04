@@ -1,0 +1,21 @@
+{
+  "Project": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p",
+  "Sources": [
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\playback_interval_control.v",
+      "SHA256": "CDC63A90B762DF7B3529E781FD015E49B747FCC5E15F1D5FFFC15E0347CB31AF"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\SD\\sd_card_bmp.v",
+      "SHA256": "0F7DAEB91B95F07B3F5D3A002EA07AB12A2B17485A44196547268A25282E73BA"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\sim\\current\\controls\\tb_playback_interval.v",
+      "SHA256": "0EF208812A718FD58290236DAFCB25916C79B86B9045F7C9ED8EE42E2CF8594A"
+    }
+  ],
+  "Parameters": [
+    "+INJECT_INTERVAL"
+  ],
+  "Boundary": "Component digital RTL only; not integrated top, routed retention, metastability or hardware signoff"
+}

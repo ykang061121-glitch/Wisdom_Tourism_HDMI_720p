@@ -1,0 +1,47 @@
+# vsim -c -onfinish stop work.tb_large_bmp -gMODE=0 "+RAW=E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\fixtures\all_twelve.raw" -do "run -all;quit -f" 
+# Start time: 18:45:55 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\tb_large_bmp.v(31): (vopt-2685) [TFMPC] - Too few port connections for 'scaler'.  Expected 18, found 16.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\tb_large_bmp.v(31): (vopt-2718) [TFMPC] - Missing connection for port 'content_height'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\tb_large_bmp.v(31): (vopt-2718) [TFMPC] - Missing connection for port 'content_width'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_large_bmp(fast)
+# run -all
+# GENERIC_BMP_FULL_PASS mode=0 source=320x240 offset=54 padding=0 sectors=452 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=640x480 offset=61 padding=0 sectors=1802 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=800x600 offset=511 padding=0 sectors=2815 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1024x768 offset=1023 padding=0 sectors=4611 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1280x720 offset=54 padding=0 sectors=5402 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1366x768 offset=61 padding=2 sectors=6152 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1600x900 offset=511 padding=0 sectors=8440 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1920x1080 offset=1023 padding=0 sectors=12153 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1080x1920 offset=54 padding=0 sectors=12152 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1920x1200 offset=61 padding=0 sectors=13502 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1919x1079 offset=511 padding=3 sectors=12141 output=921600 EOF=1
+# GENERIC_BMP_FULL_PASS mode=0 source=1920x1920 offset=1023 padding=0 sectors=21603 output=921600 EOF=1
+# GENERIC_BMP_TEST_PASS mode=0 full_frames=12 output_pixels=11059200
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/scaling/tb_large_bmp.v(144)
+#    Time: 2053732380 ns  Iteration: 1  Instance: /tb_large_bmp
+# Break at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/scaling/tb_large_bmp.v line 144
+# Stopped at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/scaling/tb_large_bmp.v line 144
+# quit -f
+# End time: 18:48:50 on Nov 03,2026, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 3

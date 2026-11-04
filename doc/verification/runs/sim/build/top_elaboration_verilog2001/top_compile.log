@@ -1,0 +1,93 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:43:31 on Nov 03,2026
+vlog -permissive "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\include" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\td_project" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\I2S_receiver.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\audio_arc_calculate.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\hdmi_phy_warpper.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\lane_lvds_10_1.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\hdmi1.4b_transmitter_core\hdmi_1_4b_transmitter_core_wrapper.enc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\bmp_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\color_bar.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_fifo_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_fifo_write.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_bmp.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\seg_decoder.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\seg_scan.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\video_delay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\video_timing_data.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\hdmi_audio_tone_i2s_64fs.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\startup_pulse.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_rgb_to_axis_640x480.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_cmd.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_sec_read_write.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_top.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\spi_master.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sdram.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\include\sdr_as_ram.enc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\include\sdr_init_ref.enc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\include\sdr_wrrd.enc.v 
+-- Compiling module I2S_receiver
+-- Compiling module audio_arc_calculate
+-- Compiling module hdmi_phy_wrapper
+-- Compiling module lane_lvds_10_1
+-- Compiling module hdmi_1_4b_transmitter_core_wrapper
+-- Compiling module spectrum_snapshot_cdc
+-- Compiling module showcase_music_overlay_spectrum
+-- Compiling module pcm_spectrum_dft512
+-- Compiling module pixel_identity_delay
+-- Compiling module diagnostic_frame_phase
+-- Compiling module fixed_chinese_layout
+-- Compiling module fixed_chinese_row_rom
+-- Compiling module hdmi_diagnostic_overlay
+-- Compiling module debug_status
+-- Compiling module osd_status_cdc
+-- Compiling module video_active_position
+-- Compiling module osd_overlay
+-- Compiling module display_adjust_control
+-- Compiling module video_adjust
+-- Compiling module video_adjust_percent
+-- Compiling module video_fade
+-- Compiling module picture_transition
+-- Compiling module playback_progress_overlay
+-- Compiling module playback_progress_display
+-- Compiling module fade_transition_cdc
+-- Compiling module fade_transition_ctrl
+-- Compiling module slide_transition_ctrl
+-- Compiling module segmented_frame_reader
+-- Compiling module slide_frame_read_write
+-- Compiling module sd_sector_buffer
+-- Compiling module bmp_pixel_decoder
+-- Compiling module image_scaler
+-- Compiling module image_scaler_generic
+-- Compiling module scaler_setup_divider
+-- Compiling module adjustment_key_control
+-- Compiling module scaling_metadata_format
+-- Compiling module compliance_control_bridge
+-- Compiling module frame_completion_guard
+-- Compiling module audio_wave_capture
+-- Compiling module audio_wave_overlay
+-- Compiling module subtitle_text_rom
+-- Compiling module subtitle_font_rom
+-- Compiling module dynamic_subtitle_overlay
+-- Compiling module image_audio_cdc
+-- Compiling module image_melody_rom
+-- Compiling module image_melody_pcm
+-- Compiling module image_melody_i2s
+-- Compiling module playback_interval_control
+-- Compiling module presentation_control
+-- Compiling module presentation_overlay
+-- Compiling module melody_status_cdc
+-- Compiling module scene_notice
+-- Compiling module showcase_music_overlay
+-- Compiling module showcase_ui_pipeline
+-- Compiling module showcase_music_overlay_fast
+-- Compiling module showcase_presentation_pipeline
+-- Compiling module top
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(142): (vlog-2618) 'video_x' already declared in this scope (top).
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(143): (vlog-2618) 'video_y' already declared in this scope (top).
+** Error: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(163): (vlog-2730) Undefined variable: 'transition_busy'.
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(207): (vlog-2618) 'transition_busy' already declared in this scope (top).
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(247): (vlog-2618) 'spectrum_snapshot_levels' already declared in this scope (top).
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(278): (vlog-2618) 'rst_all' already declared in this scope (top).
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(743): (vlog-2618) 'diagnostic_de' already declared in this scope (top).
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(744): (vlog-2618) 'diagnostic_x' already declared in this scope (top).
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\top_tf_hdmi_audio.v(744): (vlog-2618) 'diagnostic_y' already declared in this scope (top).
+-- Compiling module bmp_read
+-- Compiling module color_bar
+-- Compiling module frame_fifo_read
+-- Compiling module frame_fifo_write
+-- Compiling module frame_read_write
+-- Compiling module sd_card_bmp
+-- Compiling module key_press_debounce
+-- Compiling module seg_decoder
+-- Compiling module seg_scan
+-- Compiling module video_delay
+-- Compiling module video_timing_data
+-- Compiling module hdmi_audio_tone_i2s_64fs
+-- Compiling module startup_pulse
+-- Compiling module video_rgb_to_axis_640x480
+-- Compiling module sd_card_cmd
+-- Compiling module sd_card_sec_read_write
+-- Compiling module sd_card_top
+-- Compiling module spi_master
+-- Compiling module sdram
+-- Compiling module sdr_as_ram
+-- Compiling module sdr_init_ref
+** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\include\sdr_init_ref.enc.v(213): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+End time: 18:43:32 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 1, Warnings: 9

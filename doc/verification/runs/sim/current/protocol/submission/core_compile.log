@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:50:09 on Nov 03,2026
+vlog E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\hdmi1.4b_transmitter_core\hdmi_1_4b_transmitter_core_wrapper.enc.v 
+-- Compiling module hdmi_1_4b_transmitter_core_wrapper
+
+Top level modules:
+	hdmi_1_4b_transmitter_core_wrapper
+End time: 18:50:09 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

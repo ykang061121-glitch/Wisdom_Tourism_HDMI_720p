@@ -1,0 +1,217 @@
+[
+  {
+    "Relative": "sim/build",
+    "Bytes": 57437907,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/controls/runs",
+    "Bytes": 6514308,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/osd/runs",
+    "Bytes": 112616650,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/pcm/presentation_runs",
+    "Bytes": 4248782,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/scaling/runs",
+    "Bytes": 3894405,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/protocol/submission",
+    "Bytes": 413476532,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/transitions/full",
+    "Bytes": 141613251,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/transitions/legacy_state",
+    "Bytes": 604732,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/transitions/legacy_pixels",
+    "Bytes": 602306,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/logs",
+    "Bytes": 27043,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/work",
+    "Bytes": 2155076,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/actual_chain_events.csv",
+    "Bytes": 300,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/actual_chain_pcm.csv",
+    "Bytes": 211318,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/actual_chain_snapshots.csv",
+    "Bytes": 3829,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/case_count.txt",
+    "Bytes": 2,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/expected.json",
+    "Bytes": 489933,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/real_dds_pcm.csv",
+    "Bytes": 21665975,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/result.json",
+    "Bytes": 263,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/rtl_snapshots.csv",
+    "Bytes": 7013,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/stimulus.hex",
+    "Bytes": 240640,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/streaming_snapshots.csv",
+    "Bytes": 210,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.begin.f",
+    "Bytes": 160,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.end.f",
+    "Bytes": 0,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.begin.f",
+    "Bytes": 160,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.end.f",
+    "Bytes": 0,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.begin.f",
+    "Bytes": 160,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.end.f",
+    "Bytes": 0,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/flow.status",
+    "Bytes": 1564,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/gate.qor",
+    "Bytes": 7145,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_elaborate.db",
+    "Bytes": 7304580,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.area",
+    "Bytes": 16984,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.db",
+    "Bytes": 7804456,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.timing",
+    "Bytes": 1191758,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.ts",
+    "Bytes": 66,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.area",
+    "Bytes": 14866,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.db",
+    "Bytes": 7424764,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/rebuild_synthesis.log",
+    "Bytes": 108640,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/td_20261103_184451.log",
+    "Bytes": 108633,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/td_20261103_184451.logw",
+    "Bytes": 26400,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/protocol/__pycache__",
+    "Bytes": 15691,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/spectrum/__pycache__",
+    "Bytes": 14490,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/render_compact_preview.py",
+    "Bytes": 2275,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  },
+  {
+    "Relative": "sim/current/transitions/tb_legacy_pixels.sv",
+    "Bytes": 9515,
+    "Reason": "newly generated cache/capture; logs retained or reproducible fixture output"
+  }
+]

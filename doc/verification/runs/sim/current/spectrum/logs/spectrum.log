@@ -1,0 +1,77 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_spectrum "+CASES=47" -do "run -all;quit -f" 
+# Start time: 18:46:50 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_spectrum(fast)
+# run -all
+# PASS snapshot case 0, process wait 655476 cycles
+# PASS snapshot case 1, process wait 653938 cycles
+# PASS snapshot case 2, process wait 655476 cycles
+# PASS snapshot case 3, process wait 655476 cycles
+# PASS snapshot case 4, process wait 655476 cycles
+# PASS snapshot case 5, process wait 655476 cycles
+# PASS snapshot case 6, process wait 655476 cycles
+# PASS snapshot case 7, process wait 655476 cycles
+# PASS snapshot case 8, process wait 655476 cycles
+# PASS snapshot case 9, process wait 655476 cycles
+# PASS snapshot case 10, process wait 655476 cycles
+# PASS snapshot case 11, process wait 655476 cycles
+# PASS snapshot case 12, process wait 655476 cycles
+# PASS snapshot case 13, process wait 655476 cycles
+# PASS snapshot case 14, process wait 655476 cycles
+# PASS snapshot case 15, process wait 655476 cycles
+# PASS snapshot case 16, process wait 655476 cycles
+# PASS snapshot case 17, process wait 655476 cycles
+# PASS snapshot case 18, process wait 655476 cycles
+# PASS snapshot case 19, process wait 655476 cycles
+# PASS snapshot case 20, process wait 655476 cycles
+# PASS snapshot case 21, process wait 655476 cycles
+# PASS snapshot case 22, process wait 655476 cycles
+# PASS snapshot case 23, process wait 655476 cycles
+# PASS snapshot case 24, process wait 655476 cycles
+# PASS snapshot case 25, process wait 655476 cycles
+# PASS snapshot case 26, process wait 655476 cycles
+# PASS snapshot case 27, process wait 655476 cycles
+# PASS snapshot case 28, process wait 655476 cycles
+# PASS snapshot case 29, process wait 655476 cycles
+# PASS snapshot case 30, process wait 655476 cycles
+# PASS snapshot case 31, process wait 655476 cycles
+# PASS snapshot case 32, process wait 655476 cycles
+# PASS snapshot case 33, process wait 655476 cycles
+# PASS snapshot case 34, process wait 655476 cycles
+# PASS snapshot case 35, process wait 655476 cycles
+# PASS snapshot case 36, process wait 655476 cycles
+# PASS snapshot case 37, process wait 655476 cycles
+# PASS snapshot case 38, process wait 655476 cycles
+# PASS snapshot case 39, process wait 655476 cycles
+# PASS snapshot case 40, process wait 655476 cycles
+# PASS snapshot case 41, process wait 655476 cycles
+# PASS snapshot case 42, process wait 655476 cycles
+# PASS snapshot case 43, process wait 655476 cycles
+# PASS snapshot case 44, process wait 655476 cycles
+# PASS snapshot case 45, process wait 655476 cycles
+# PASS snapshot case 46, process wait 655476 cycles
+# PASS spectrum snapshots, pause/reset/overrun
+# ** Note: $finish    : tb_spectrum.v(66)
+#    Time: 317935730 ns  Iteration: 1  Instance: /tb_spectrum
+# End time: 18:47:19 on Nov 03,2026, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0

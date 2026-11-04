@@ -1,0 +1,28 @@
+{
+  "Passed": true,
+  "PacketTypes": {
+    "131": 13,
+    "2": 10349,
+    "0": 16339,
+    "132": 12,
+    "130": 12,
+    "3": 12,
+    "1": 191
+  },
+  "AudioSamples": 10349,
+  "InputPCM": 10349,
+  "StartupDiscard": 0,
+  "TailPending": 0,
+  "ACRPackets": 191,
+  "N": 6144,
+  "CTSRange": [
+    74207,
+    74208
+  ],
+  "InputSampleRateHz": 48027.66619640279,
+  "ReconstructedSampleRateHz": 48027.6649916489,
+  "OriginalPLLSampleRateHz": 48027.66393442623,
+  "Nominal48kErrorPPM": 576.3790917248102,
+  "AllFourMelodiesTransported": true,
+  "IEC60958ParityChecks": 20698
+}

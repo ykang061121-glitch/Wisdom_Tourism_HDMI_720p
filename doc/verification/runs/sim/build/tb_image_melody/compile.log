@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:40:35 on Nov 03,2026
+vlog -sv -work work "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_melody_pcm.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_melody.v 
+-- Compiling module image_melody_rom
+-- Compiling module image_melody_pcm
+-- Compiling module tb_image_melody
+
+Top level modules:
+	tb_image_melody
+End time: 18:40:35 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

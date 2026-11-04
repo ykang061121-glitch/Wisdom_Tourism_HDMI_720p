@@ -1,0 +1,26 @@
+{
+  "ProductionInputs": 139,
+  "AllExact": true,
+  "BitSHA256": "85FAF68CAEA63841E7C3C58B98B6F484FF777D89A59C4620B05D12BDA5DF5B30",
+  "Projects": [
+    {
+      "Entry": "src/td_project/HDMI1.4b_Transmitter_v1.0.al",
+      "References": 45,
+      "AllLocalAndPresent": true
+    },
+    {
+      "Entry": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.prj",
+      "References": 45,
+      "AllLocalAndPresent": true
+    },
+    {
+      "Entry": "src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.prj",
+      "References": 45,
+      "AllLocalAndPresent": true
+    }
+  ],
+  "MissingIncludes": [],
+  "HistoryDirectoryRequired": false,
+  "RTLChanged": false,
+  "ConstraintsChanged": false
+}

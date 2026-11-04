@@ -1,0 +1,11 @@
+{
+  "Passed": true,
+  "Negative": false,
+  "Top": "tb_generic_scaler",
+  "Options": [
+    "-gMODE=2"
+  ],
+  "ExitCode": 0,
+  "Project": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p",
+  "Time": "2026-11-03T18:53:00.7589844+08:00"
+}

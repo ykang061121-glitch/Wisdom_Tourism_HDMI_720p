@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:42:21 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\scene_notice.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_scene_notice.v 
+-- Compiling module scene_notice
+-- Compiling module tb_scene_notice
+
+Top level modules:
+	tb_scene_notice
+End time: 18:42:21 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

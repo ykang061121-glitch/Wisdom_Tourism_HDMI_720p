@@ -1,0 +1,32 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_playback_progress "+INJECT_PROGRESS_LAYER" -do "run -all; quit -f" 
+# Start time: 18:45:47 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_playback_progress(fast)
+# run -all
+# ADVANCED_CHECKER_REJECT PROGRESS_LAYER
+# ** Fatal: bar boundary/transparent pixel mismatch
+#    Time: 451951 ns  Scope: tb_playback_progress File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_playback_progress.v Line: 74
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_playback_progress.v(74)
+#    Time: 451951 ns  Iteration: 0  Instance: /tb_playback_progress
+# End time: 18:45:48 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

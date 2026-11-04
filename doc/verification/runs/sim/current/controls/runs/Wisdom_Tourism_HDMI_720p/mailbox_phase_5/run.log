@@ -1,0 +1,30 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_compliance_control -gPHASE=5 -do "run -all;quit -f" 
+# Start time: 18:45:44 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_compliance_control(fast)
+# run -all
+# COMPLIANCE_CONTROL_TEST_PASS phase=5 coherent_transfers=4 boundaries=26 normal_events=2/2
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/controls/tb_compliance_control.v(99)
+#    Time: 51452760 ps  Iteration: 1  Instance: /tb_compliance_control
+# End time: 18:45:46 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

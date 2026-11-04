@@ -1,0 +1,29 @@
+# vsim -c work.tb_picture_transitions -do "run -all; quit -f" 
+# Start time: 18:45:53 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_picture_transitions(fast)
+# run -all
+# TRANSITION_CASE_PASS target=0 automatic=0 mode=0
+# TRANSITION_CASE_PASS target=1 automatic=0 mode=0
+# ** Fatal: frame-level effect state mismatch mode=0 step= 8 level=4 expected=          1/          8/          4
+#    Time: 383020 ns  Scope: tb_picture_transitions.row File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_picture_transitions.v Line: 65
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_picture_transitions.v(65)
+#    Time: 383020 ns  Iteration: 1  Instance: /tb_picture_transitions
+# End time: 18:45:56 on Nov 03,2026, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 0

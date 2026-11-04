@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:39:48 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_scaler.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_scaler_control.v 
+-- Compiling module image_scaler
+-- Compiling module tb_scaler_control
+
+Top level modules:
+	tb_scaler_control
+End time: 18:39:48 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,23 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:39:05 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\sd_sector_buffer.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\bmp_pixel_decoder.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_scaler.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\frame_completion_guard.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\debug_status.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\bmp_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_bmp.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_fifo_write.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fade_transition_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fade_transition_ctrl.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_write_ack.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_interval_control.v 
+-- Compiling module sd_sector_buffer
+-- Compiling module bmp_pixel_decoder
+-- Compiling module image_scaler
+-- Compiling module frame_completion_guard
+-- Compiling module debug_status
+-- Compiling module bmp_read
+-- Compiling module sd_card_bmp
+-- Compiling module key_press_debounce
+-- Compiling module frame_fifo_write
+-- Compiling module fade_transition_cdc
+-- Compiling module fade_transition_ctrl
+-- Compiling module write_ack_case
+-- Compiling module sd_card_top
+-- Compiling module tb_write_ack
+-- Compiling module playback_interval_control
+
+Top level modules:
+	tb_write_ack
+End time: 18:39:05 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

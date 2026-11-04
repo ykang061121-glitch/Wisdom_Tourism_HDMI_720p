@@ -1,0 +1,8 @@
+{
+  "Passed": true,
+  "Algorithm": "512-point direct DFT, periodic Hann, 16 bands",
+  "Cases": 47,
+  "ActualI2SSnapshots": 24,
+  "Source": "A2921BA6A2E95A03B73081DEA7FAF853E229816760FC27661F8477381A7A4655",
+  "Time": "2026-11-03T18:48:28.2280910+08:00"
+}

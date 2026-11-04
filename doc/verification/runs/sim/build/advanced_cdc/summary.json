@@ -1,0 +1,66 @@
+{
+  "RecordedAt": "2026-11-03T18:45:10.0638601+08:00",
+  "Results": [
+    {
+      "Name": "CDC phase 0",
+      "Passed": true
+    },
+    {
+      "Name": "CDC phase 7",
+      "Passed": true
+    },
+    {
+      "Name": "CDC phase 19",
+      "Passed": true
+    },
+    {
+      "Name": "CDC phase 39",
+      "Passed": true
+    },
+    {
+      "Name": "negative CDC TORN_CDC",
+      "Passed": true
+    },
+    {
+      "Name": "negative CDC EARLY_READY",
+      "Passed": true
+    }
+  ],
+  "SourceHashes": [
+    {
+      "Algorithm": "SHA256",
+      "Hash": "405D7D2A1275FFB6CF2E02BAD90EAECED79A9BAB0ADE0DAAEAE14020DF171DCF",
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\osd_status_cdc.v"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "50A5C2A1AA663BCE4A055617F313B5F4EB7A8F64FAE2BBA5F81147A9A5FFAB01",
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\melody_status_cdc.v"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "2EC2A25F360900700C0819115AD33AC38A8EF72A4A4627149BC0598DB14AD32D",
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\image_audio_cdc.v"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "3ED8D76F9AB8A38E07A0D1F550E79EC18F336F773EE079B93F62966BF8B186A0",
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\frame_completion_guard.v"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "230BE4101A96F19F742DCF6A845764D2D88092EA8DD3AB377B8BB47AC4597639",
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\fade_transition_cdc.v"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "7EAA644F80B2F8DF8EF00F12A9BB6B5DA06C8FD6DA9EC830108A1044FF96EAB3",
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\fade_transition_ctrl.v"
+    },
+    {
+      "Algorithm": "SHA256",
+      "Hash": "6285F1342BB014450B49FE99B726EE46181A4FC8E12D19DBEB309B4E74CDA844",
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\sim\\tb_reliability_cdc.v"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+PASS actual receiver snapshot 00: epoch=0 hop=0, peak_power=316049, height=145, pcm_nonzero=477
+PASS actual receiver snapshot 01: epoch=0 hop=1, peak_power=5822624, height=196, pcm_nonzero=512
+PASS actual receiver snapshot 02: epoch=0 hop=2, peak_power=5849441, height=196, pcm_nonzero=512
+PASS actual receiver snapshot 03: epoch=0 hop=3, peak_power=5829892, height=196, pcm_nonzero=512
+PASS actual receiver snapshot 04: epoch=0 hop=4, peak_power=314837, height=145, pcm_nonzero=500
+PASS actual receiver snapshot 05: epoch=0 hop=5, peak_power=4905140, height=193, pcm_nonzero=512
+PASS actual receiver snapshot 06: epoch=0 hop=6, peak_power=5219497, height=193, pcm_nonzero=512
+PASS actual receiver snapshot 07: epoch=0 hop=7, peak_power=5362034, height=195, pcm_nonzero=512
+PASS actual receiver snapshot 08: epoch=0 hop=8, peak_power=380681, height=148, pcm_nonzero=500
+PASS actual receiver snapshot 09: epoch=0 hop=9, peak_power=5839913, height=196, pcm_nonzero=512
+PASS actual receiver snapshot 10: epoch=0 hop=10, peak_power=5853128, height=196, pcm_nonzero=512
+PASS actual receiver snapshot 11: epoch=0 hop=11, peak_power=4545029, height=192, pcm_nonzero=512
+PASS actual receiver snapshot 12: epoch=0 hop=12, peak_power=360322, height=147, pcm_nonzero=500
+PASS actual receiver snapshot 13: epoch=0 hop=13, peak_power=5475730, height=195, pcm_nonzero=512
+PASS actual receiver snapshot 14: epoch=0 hop=14, peak_power=5467552, height=195, pcm_nonzero=512
+PASS actual receiver snapshot 15: epoch=0 hop=15, peak_power=5494865, height=195, pcm_nonzero=512
+PASS actual receiver snapshot 16: epoch=0 hop=16, peak_power=0, height=0, pcm_nonzero=0
+PASS actual receiver snapshot 17: epoch=0 hop=17, peak_power=0, height=0, pcm_nonzero=0
+PASS actual receiver snapshot 18: epoch=0 hop=18, peak_power=0, height=0, pcm_nonzero=0
+PASS actual receiver snapshot 19: epoch=0 hop=19, peak_power=0, height=0, pcm_nonzero=0
+PASS actual receiver snapshot 20: epoch=0 hop=20, peak_power=5844730, height=196, pcm_nonzero=512
+PASS actual receiver snapshot 21: epoch=0 hop=21, peak_power=5857442, height=196, pcm_nonzero=512
+PASS actual receiver snapshot 22: epoch=1 hop=0, peak_power=300176, height=145, pcm_nonzero=477
+PASS actual receiver snapshot 23: epoch=1 hop=1, peak_power=5480834, height=195, pcm_nonzero=512
+PASS 24 actual-I2S-receiver snapshots bit-exact against independent integer DFT; max floating FFT peak-power error 0.283586%.
+PASS parallel uninstrumented source/receiver equality: TX=12451842 cycles, RX=75196669 cycles, receiver-valid=48639 samples.
+PASS four songs steady; attack/play/release/silence/idle; persistent mute gives 4 zero snapshots; active-DFT reset and recovery.

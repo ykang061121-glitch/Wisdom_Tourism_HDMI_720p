@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "fault": "VIC",
+  "mode": 1,
+  "external": true,
+  "cycle": 8395,
+  "state": "ISLAND",
+  "x": 0,
+  "y": 0,
+  "reason": "AVI VIC",
+  "expected": 4,
+  "actual": 5
+}

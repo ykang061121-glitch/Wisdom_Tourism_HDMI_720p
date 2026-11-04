@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:45:49 on Nov 03,2026
+vlog -sv -work work "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\sd_card_bmp.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_interval_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\osd_status_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\playback_progress_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_playback_progress.v 
+-- Compiling module sd_card_bmp
+-- Compiling module key_press_debounce
+-- Compiling module playback_interval_control
+-- Compiling module osd_status_cdc
+-- Compiling module playback_progress_overlay
+-- Compiling module tb_playback_progress
+-- Compiling module tb_playback_progress_exact
+
+Top level modules:
+	sd_card_bmp
+	tb_playback_progress_exact
+End time: 18:45:49 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

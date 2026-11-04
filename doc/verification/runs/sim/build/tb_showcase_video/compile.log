@@ -1,0 +1,34 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:42:35 on Nov 03,2026
+vlog -sv -work work "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_audio_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_melody_i2s.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\I2S_receiver.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\audio_wave_capture.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\audio_wave_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\dynamic_subtitle_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_active_position.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_adjust.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_fade.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\osd_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\color_bar.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\video_timing_data.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\video_delay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\presentation_control.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\melody_status_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\scene_notice.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_music_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_ui.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_presentation.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_video.v 
+-- Compiling module image_audio_cdc
+-- Compiling module image_melody_rom
+-- Compiling module image_melody_pcm
+-- Compiling module image_melody_i2s
+-- Compiling module I2S_receiver
+-- Compiling module audio_wave_capture
+-- Compiling module audio_wave_overlay
+-- Compiling module subtitle_text_rom
+-- Compiling module subtitle_font_rom
+-- Compiling module dynamic_subtitle_overlay
+-- Compiling module video_active_position
+-- Compiling module video_adjust
+-- Compiling module video_fade
+-- Compiling module osd_overlay
+-- Compiling module color_bar
+-- Compiling module video_timing_data
+-- Compiling module video_delay
+-- Compiling module presentation_control
+-- Compiling module melody_status_cdc
+-- Compiling module scene_notice
+-- Compiling module showcase_music_overlay
+-- Compiling module showcase_ui
+-- Compiling module showcase_presentation
+-- Compiling module tb_showcase_video
+
+Top level modules:
+	audio_wave_overlay
+	osd_overlay
+	tb_showcase_video
+End time: 18:42:35 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

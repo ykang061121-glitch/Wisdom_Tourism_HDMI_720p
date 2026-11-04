@@ -1,0 +1,28 @@
+# vsim -c work.tb_transparent_osd "+INJECT_TOP_WHITE" -do "run -all; quit -f" 
+# Start time: 18:45:06 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_transparent_osd(fast)
+# run -all
+# TRANSPARENT_CHECKER_REJECT FADE_OR_PLATE x=113 y=16 observed=eaf6ff nofade=ffc000
+# ** Fatal: fade debug text, opaque plate, or outline regression
+#    Time: 6070025100 ps  Scope: tb_transparent_osd File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_transparent_osd.v Line: 90
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_transparent_osd.v(90)
+#    Time: 6070025100 ps  Iteration: 0  Instance: /tb_transparent_osd
+# End time: 18:45:10 on Nov 03,2026, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0

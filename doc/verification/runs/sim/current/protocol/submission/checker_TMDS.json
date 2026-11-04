@@ -1,0 +1,17 @@
+{
+  "passed": false,
+  "fault": "TMDS",
+  "mode": 1,
+  "external": true,
+  "cycle": 2493243,
+  "state": "VIDEO",
+  "x": 33,
+  "y": 0,
+  "reason": "TMDS encoding/disparity",
+  "channel": 0,
+  "actual": "0x200",
+  "previous_RD": [
+    -6,
+    -5
+  ]
+}

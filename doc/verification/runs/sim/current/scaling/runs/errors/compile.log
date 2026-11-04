@@ -1,0 +1,12 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:53:00 on Nov 03,2026
+vlog -sv "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\td_project" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\fixtures" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\bmp_read.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\sd_sector_buffer.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\bmp_pixel_decoder.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\tb_generic_errors.v 
+-- Compiling module bmp_read
+-- Compiling module sd_sector_buffer
+-- Compiling module bmp_pixel_decoder
+-- Compiling module tb_bmp720_errors
+
+Top level modules:
+	tb_bmp720_errors
+End time: 18:53:00 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

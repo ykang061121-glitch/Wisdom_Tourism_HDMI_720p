@@ -1,0 +1,50 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_bmp_read -do "run -all; quit -f" 
+# Start time: 18:38:42 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bmp_read.v(36): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 35, found 29.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bmp_read.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'error_code'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bmp_read.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'source_done'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bmp_read.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'frame_start'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bmp_read.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'source_height'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bmp_read.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'source_width'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bmp_read.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'pixel_row_last'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_bmp_read(fast)
+# run -all
+# BMP_CASE_1_AND_7_OK
+# BMP_CASE_2_REJECT_OK
+# BMP_CASE_3_REJECT_OK
+# BMP_CASE_4_REJECT_OK
+# BMP_CASE_5_REJECT_OK
+# BMP_CASE_6_REJECT_OK
+# BMP_READ_TEST_PASS
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_bmp_read.v(222)
+#    Time: 54125 ns  Iteration: 2  Instance: /tb_bmp_read
+# End time: 18:38:44 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 7

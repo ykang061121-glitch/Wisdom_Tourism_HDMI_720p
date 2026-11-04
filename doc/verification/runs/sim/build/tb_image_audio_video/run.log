@@ -1,0 +1,48 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_image_audio_video -do "run -all; quit -f" 
+# Start time: 18:41:08 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(29): (vopt-2685) [TFMPC] - Too few port connections for 'tx'.  Expected 12, found 11.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(29): (vopt-2718) [TFMPC] - Missing connection for port 'playback_status'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(43): (vopt-2685) [TFMPC] - Too few port connections for 'subtitle_layer'.  Expected 19, found 18.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(43): (vopt-2718) [TFMPC] - Missing connection for port 'scene_image'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(47): (vopt-2685) [TFMPC] - Too few port connections for 'osd'.  Expected 17, found 13.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(47): (vopt-2718) [TFMPC] - Missing connection for port 'wave_visible'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(47): (vopt-2718) [TFMPC] - Missing connection for port 'subtitles_visible'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(47): (vopt-2718) [TFMPC] - Missing connection for port 'preset_mode'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_video.v(47): (vopt-2718) [TFMPC] - Missing connection for port 'interval_code'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_image_audio_video(fast)
+# run -all
+# IMAGE_AUDIO_VIDEO_TEST_PASS frames=8 pixels=2457600 melodies=4 PCM=6453 snapshots=7 green=10752 black_green=3072
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_image_audio_video.v(144)
+#    Time: 134369840 ns  Iteration: 1  Instance: /tb_image_audio_video
+# End time: 18:41:14 on Nov 03,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 9

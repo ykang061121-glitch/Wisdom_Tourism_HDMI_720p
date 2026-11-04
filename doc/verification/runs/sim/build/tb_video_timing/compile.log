@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:38:29 on Nov 03,2026
+vlog -sv -work work "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\color_bar.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\video_timing_data.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_video_timing.v 
+-- Compiling module color_bar
+-- Compiling module video_timing_data
+-- Compiling module tb_video_timing
+
+Top level modules:
+	tb_video_timing
+End time: 18:38:29 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

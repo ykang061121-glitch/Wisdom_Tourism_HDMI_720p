@@ -1,0 +1,17 @@
+{
+  "Project": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p",
+  "Sources": [
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\adjustment_key_control.v",
+      "SHA256": "160CEE3403DDA50836D89468FBC19408CD0F749E0FA1AF0EB786763DE4A4D7AD"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\sim\\current\\controls\\tb_adjust_keys_v2.v",
+      "SHA256": "F196F841E543A3C6AFA3E08AB4E39DE9BE16950B583F0E303FF6293CC5A43359"
+    }
+  ],
+  "Parameters": [
+    "+FAULT_KEY"
+  ],
+  "Boundary": "Component digital RTL only; not integrated top, routed retention, metastability or hardware signoff"
+}

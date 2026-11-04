@@ -1,0 +1,34 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_compact_notice -do "run -all; quit -f" 
+# Start time: 18:43:44 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_compact_notice.v(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 30.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_compact_notice.v(10): (vopt-2718) [TFMPC] - Missing connection for port 'error_status'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_compact_notice(fast)
+# run -all
+# COMPACT_NOTICE_TEST_PASS hint_72_frames card_72_frames snapshot_stable rapid_latest no_repeat frame_atomic five_controls simultaneous latest reset no_premature_scene
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_compact_notice.v(80)
+#    Time: 143560100 ps  Iteration: 0  Instance: /tb_compact_notice
+# End time: 18:43:46 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 2

@@ -1,0 +1,54 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_tourism_video -do "run -all; quit -f" 
+# Start time: 18:47:30 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_progress_commit_sync.v(30): (vopt-2685) [TFMPC] - Too few port connections for 'source'.  Expected 40, found 36.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_progress_commit_sync.v(30): (vopt-2718) [TFMPC] - Missing connection for port 'osd_scaling_meta'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_progress_commit_sync.v(30): (vopt-2718) [TFMPC] - Missing connection for port 'video_busy_observed'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_progress_commit_sync.v(30): (vopt-2718) [TFMPC] - Missing connection for port 'key_interval_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_progress_commit_sync.v(30): (vopt-2718) [TFMPC] - Missing connection for port 'key_auto_event'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_tourism_video(fast)
+# Loading work.picture_transition(fast)
+# Loading work.osd_status_cdc(fast__1)
+# run -all
+# POLISH_RTL_FRAME 01_west_lake_vga scene=0 state=0 fade=4 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_out_step6 scene=0 state=2 fade=3 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_out_step4 scene=0 state=2 fade=2 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_out_step2 scene=0 state=2 fade=1 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_out_step0 scene=0 state=3 fade=0 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_black_commit scene=1 state=4 fade=0 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_in_step2 scene=1 state=4 fade=1 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_in_step4 scene=1 state=4 fade=2 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_in_step6 scene=1 state=4 fade=3 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME effect0_in_step8 scene=1 state=0 fade=4 units=0 visible=0 pixels=307200
+# POLISH_RTL_FRAME 02_forbidden_city_vga scene=1 state=0 fade=4 units=0 visible=0 pixels=307200
+# ** Fatal: not alternating from actual visible commits
+#    Time: 184991760 ns  Scope: tb_tourism_video.record_transition File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_tourism_video.v Line: 141
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_tourism_video.v(141)
+#    Time: 184991760 ns  Iteration: 1  Instance: /tb_tourism_video
+# End time: 18:47:59 on Nov 03,2026, Elapsed time: 0:00:29
+# Errors: 1, Warnings: 5

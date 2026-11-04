@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:42:27 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_melody_rom.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\subtitle_font_rom.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_music_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_ui.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_music_panel.v 
+-- Compiling module image_melody_rom
+-- Compiling module subtitle_font_rom
+-- Compiling module showcase_music_overlay
+-- Compiling module showcase_ui
+-- Compiling module tb_music_panel
+
+Top level modules:
+	tb_music_panel
+End time: 18:42:27 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,68 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_showcase_commit -do "run -all; quit -f" 
+# Start time: 18:43:32 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2685) [TFMPC] - Too few port connections for 'source'.  Expected 40, found 34.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'playback_error'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'playback_progress'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'osd_scaling_meta'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'video_busy_observed'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'key_interval_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'key_auto_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(63): (vopt-2685) [TFMPC] - Too few port connections for 'tx'.  Expected 12, found 11.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(63): (vopt-2718) [TFMPC] - Missing connection for port 'playback_status'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2685) [TFMPC] - Too few port connections for 'source'.  Expected 40, found 34.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'playback_error'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'playback_progress'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'osd_scaling_meta'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'video_busy_observed'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'key_interval_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(36): (vopt-2718) [TFMPC] - Missing connection for port 'key_auto_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(63): (vopt-2685) [TFMPC] - Too few port connections for 'tx'.  Expected 12, found 11.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_showcase_commit.v(63): (vopt-2718) [TFMPC] - Missing connection for port 'playback_status'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_showcase_commit(fast)
+# run -all
+# SHOWCASE_COMMIT_PHASE_PASS phase=0 PCM=2805 snapshots=10 four_periods manual_auto combined black_commit music_reset
+# SHOWCASE_COMMIT_PHASE_PASS phase=13 PCM=2805 snapshots=10 four_periods manual_auto combined black_commit music_reset
+# SHOWCASE_COMMIT_TEST_PASS actual_manual_auto_black_commit_notice_K3_K4_reset
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_showcase_commit.v(364)
+#    Time: 58403560 ns  Iteration: 2  Instance: /tb_showcase_commit
+# End time: 18:43:43 on Nov 03,2026, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 18

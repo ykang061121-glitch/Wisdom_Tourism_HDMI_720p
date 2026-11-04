@@ -1,0 +1,12 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:40:09 on Nov 03,2026
+vlog -sv -work work "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\dynamic_subtitle_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_dynamic_subtitle.v 
+-- Compiling module subtitle_text_rom
+-- Compiling module subtitle_font_rom
+-- Compiling module dynamic_subtitle_overlay
+-- Compiling module tb_dynamic_subtitle
+
+Top level modules:
+	tb_dynamic_subtitle
+End time: 18:40:09 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,28 @@
+# vsim -c work.tb_tourism_input_gate "+INJECT_INPUT_ACCEPT" -do "run -all; quit -f" 
+# Start time: 18:48:04 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_tourism_input_gate(fast)
+# run -all
+# TOURISM_GATE_CHECKER_REJECT unsupported BMP reached the writer
+# ** Fatal: unsafe 720p input
+#    Time: 85 ns  Scope: tb_tourism_input_gate File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_tourism_input_gate.v Line: 25
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_tourism_input_gate.v(25)
+#    Time: 85 ns  Iteration: 1  Instance: /tb_tourism_input_gate
+# End time: 18:48:05 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

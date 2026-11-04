@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:39:57 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\audio_wave_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_adjust.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_fade.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\osd_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_audio_wave_overlay.v 
+-- Compiling module audio_wave_overlay
+-- Compiling module video_adjust
+-- Compiling module video_fade
+-- Compiling module osd_overlay
+-- Compiling module tb_audio_wave_overlay
+
+Top level modules:
+	tb_audio_wave_overlay
+End time: 18:39:57 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

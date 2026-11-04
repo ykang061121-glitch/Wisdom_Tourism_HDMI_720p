@@ -1,0 +1,32 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_reliability_cdc "+INJECT_TORN_CDC" -do "run -all; quit -f" 
+# Start time: 18:45:05 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_reliability_cdc(fast)
+# run -all
+# RELIABILITY_CHECKER_REJECT TORN_AUDIO
+# ** Fatal: quiescent melody bundle mismatch
+#    Time: 5540100 ps  Scope: tb_reliability_cdc File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_reliability_cdc.v Line: 100
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_reliability_cdc.v(100)
+#    Time: 5540100 ps  Iteration: 0  Instance: /tb_reliability_cdc
+# End time: 18:45:06 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

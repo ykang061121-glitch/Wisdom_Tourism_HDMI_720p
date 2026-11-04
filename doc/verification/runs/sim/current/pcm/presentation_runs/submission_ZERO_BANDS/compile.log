@@ -1,0 +1,29 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:44:26 on Nov 03,2026
+vlog -sv "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_melody_i2s.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_audio_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\melody_status_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\I2S_receiver.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\audio_wave_capture.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\pcm_spectrum_dft512.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\spectrum_snapshot_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\scene_notice.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_music_overlay_spectrum.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_music_overlay_fast.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\dynamic_subtitle_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_ui_pipeline.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\showcase_presentation_pipeline.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fixed_chinese_layout.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\fixed_chinese_row_rom.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\hdmi_diagnostic_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\pcm\tb_real_pcm_presentation.sv 
+-- Compiling module image_melody_rom
+-- Compiling module image_melody_pcm
+-- Compiling module image_melody_i2s
+-- Compiling module image_audio_cdc
+-- Compiling module melody_status_cdc
+-- Compiling module I2S_receiver
+-- Compiling module audio_wave_capture
+-- Compiling module pcm_spectrum_dft512
+-- Compiling module spectrum_snapshot_cdc
+-- Compiling module scene_notice
+-- Compiling module showcase_music_overlay_spectrum
+-- Compiling module showcase_music_overlay_fast
+-- Compiling module subtitle_text_rom
+-- Compiling module subtitle_font_rom
+-- Compiling module dynamic_subtitle_overlay
+-- Compiling module showcase_ui_pipeline
+-- Compiling module showcase_presentation_pipeline
+-- Compiling module fixed_chinese_layout
+-- Compiling module fixed_chinese_row_rom
+-- Compiling module hdmi_diagnostic_overlay
+-- Compiling module tb_real_pcm_presentation
+
+Top level modules:
+	tb_real_pcm_presentation
+End time: 18:44:26 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:40:01 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\hdmi_audio_tone_i2s_64fs.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\I2S_receiver.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\audio_wave_capture.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_audio_wave_link.v 
+-- Compiling module hdmi_audio_tone_i2s_64fs
+-- Compiling module I2S_receiver
+-- Compiling module audio_wave_capture
+-- Compiling module wave_link_case
+-- Compiling module tb_audio_wave_link
+
+Top level modules:
+	tb_audio_wave_link
+End time: 18:40:01 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

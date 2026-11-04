@@ -1,0 +1,49 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_memory_arbitration -do "run -all; quit -f" 
+# Start time: 18:39:10 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_memory_arbitration(fast)
+# run -all
+# MEMORY_BURST_PREDICATE_EQUIVALENCE_PASS
+# MEMORY_FRAME_0_PASS writes=768 reads=768 pixels=768
+# MEMORY_FRAME_1_PASS writes=768 reads=768 pixels=768
+# MEMORY_FRAME_2_PASS writes=768 reads=768 pixels=768
+# MEMORY_FRAME_3_PASS writes=768 reads=768 pixels=768
+# MEMORY_ARBITRATION_COVERAGE overlap=4 write_blocks_read=2586 read_blocks_write=1052
+# MEMORY_FIFO_COVERAGE consecutive=2548 gaps=524 max_used=469
+# MEMORY_ARBITRATION_TEST_PASS
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_memory_arbitration.v(276)
+#    Time: 146152 ns  Iteration: 1  Instance: /tb_memory_arbitration
+# End time: 18:39:12 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 6

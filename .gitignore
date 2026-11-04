@@ -1,0 +1,5 @@
+sim/build/
+sim/current/**/runs/
+sim/current/**/work/
+*.wlf
+__pycache__/

@@ -1,0 +1,82 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_protocol_720 work.glbl "+RGB=E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\osd\runs\actual\RTL_OSD_after_f0.rgb" -do "run -all;quit -f" 
+# Start time: 18:50:10 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: nofile(130): in protected region
+# ** Warning: nofile(130): in protected region
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'bea'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'dib'. The port definition is at: nofile(59).
+# 
+# ** Warning: D:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\sim_release\eg4\eg_logic_ramfifo.v(159): (vopt-2241) Connection width does not match width of port 'beb'. The port definition is at: nofile(59).
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_protocol_720(fast)
+# Loading work.hdmi_1_4b_transmitter_core_wrapper(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'bea'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (11) does not match connection size (32) for port 'dib'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'beb'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'bea'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (9) does not match connection size (32) for port 'dib'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'beb'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'bea'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (96) does not match connection size (32) for port 'dib'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'beb'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'bea'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (24) does not match connection size (32) for port 'dib'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# ** Warning: (vsim-3015) D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_ramfifo.v(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'beb'. The port definition is at: nofile(59).
+#    Time: 0 fs  Iteration: 0  Instance: /tb_protocol_720/core/<protected>/<protected>/<protected>/<protected>/<protected>/u5 File: nofile
+# run -all
+# AUDIO720_CORE_CAPTURE_PASS cycles=16000000 samples=10349 acr=215 songs=f I2S_frames=10349
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/protocol/tb_protocol_720.v(67)
+#    Time: 215488218265993 fs  Iteration: 0  Instance: /tb_protocol_720
+# End time: 18:51:24 on Nov 03,2026, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 26

@@ -1,0 +1,28 @@
+# vsim -c work.tb_image_scaling "+INJECT_COUNT" -do "run -all; quit -f" 
+# Start time: 18:39:40 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_image_scaling(fast)
+# run -all
+# SCALING_CHECKER_REJECT frame=0 pixel=124 addr=306683/306684 RGB=2ff7d3/30f7d3
+# ** Fatal: per-pixel SDRAM address/RGB mismatch
+#    Time: 110453900 ps  Scope: tb_image_scaling File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_image_scaling.v Line: 159
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_image_scaling.v(159)
+#    Time: 110453900 ps  Iteration: 1  Instance: /tb_image_scaling
+# End time: 18:39:41 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

@@ -1,0 +1,28 @@
+# vsim -c work.tb_scene_notice "+INJECT_NOTICE_EARLY" -do "run -all; quit -f" 
+# Start time: 18:42:25 on Nov 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_scene_notice(fast)
+# run -all
+# SHOWCASE_CHECKER_REJECT PREMATURE_NOTICE remaining=0 valid=0 commit=0
+# ** Fatal: notice not governed by successful committed display
+#    Time: 4380100 ps  Scope: tb_scene_notice File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_scene_notice.v Line: 21
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_scene_notice.v(21)
+#    Time: 4380100 ps  Iteration: 0  Instance: /tb_scene_notice
+# End time: 18:42:27 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0

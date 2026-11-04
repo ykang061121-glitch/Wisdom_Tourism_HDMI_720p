@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:40:41 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_audio_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_image_audio_cdc.v 
+-- Compiling module image_audio_cdc
+-- Compiling module image_cdc_case
+-- Compiling module tb_image_audio_cdc
+
+Top level modules:
+	tb_image_audio_cdc
+End time: 18:40:41 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

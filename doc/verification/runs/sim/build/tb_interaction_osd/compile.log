@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:41:26 on Nov 03,2026
+vlog -sv -work work E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\osd_status_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\osd_overlay.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_interaction_osd.v 
+-- Compiling module osd_status_cdc
+-- Compiling module osd_overlay
+-- Compiling module tb_interaction_osd
+
+Top level modules:
+	tb_interaction_osd
+End time: 18:41:26 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

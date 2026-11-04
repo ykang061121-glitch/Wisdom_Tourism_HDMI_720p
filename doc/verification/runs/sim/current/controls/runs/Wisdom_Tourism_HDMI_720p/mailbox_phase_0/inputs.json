@@ -1,0 +1,41 @@
+{
+  "Project": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p",
+  "Sources": [
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\SD\\sd_card_bmp.v",
+      "SHA256": "0F7DAEB91B95F07B3F5D3A002EA07AB12A2B17485A44196547268A25282E73BA"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\playback_interval_control.v",
+      "SHA256": "CDC63A90B762DF7B3529E781FD015E49B747FCC5E15F1D5FFFC15E0347CB31AF"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\presentation_control.v",
+      "SHA256": "FA67E87008DC83CC93EA178634493EED340E5D2DAEEF3B9BD3C4454372C00EEC"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\adjustment_key_control.v",
+      "SHA256": "160CEE3403DDA50836D89468FBC19408CD0F749E0FA1AF0EB786763DE4A4D7AD"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\scaling_metadata_format.v",
+      "SHA256": "D0944A3D24C63A947D47582A1A18E997A4C2D40D04BD187DAD4F1098792A8C4E"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\compliance_control_bridge.v",
+      "SHA256": "7A2D6BB1DE4B5A993A23BC810568D27C4CA22B333C69A59AD41122534B0C7BA0"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\src\\user_source\\hdl_source\\osd_status_cdc.v",
+      "SHA256": "405D7D2A1275FFB6CF2E02BAD90EAECED79A9BAB0ADE0DAAEAE14020DF171DCF"
+    },
+    {
+      "Path": "E:\\FPGA\\Wisdom_Tourism_HDMI_720p\\sim\\current\\controls\\tb_compliance_control.v",
+      "SHA256": "A815465816B4566BC9B9EBB051EE167227EB8DEFF35D7571E3B44F22306356C9"
+    }
+  ],
+  "Parameters": [
+    "-gPHASE=0"
+  ],
+  "Boundary": "Component digital RTL only; not integrated top, routed retention, metastability or hardware signoff"
+}

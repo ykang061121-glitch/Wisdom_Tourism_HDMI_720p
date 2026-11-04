@@ -1,0 +1,51 @@
+# vsim -c -onfinish stop work.tb_strict_fade_slide -gFULL=1 -do "run -all;quit -f" 
+# Start time: 18:44:35 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_strict_fade_slide(fast)
+# run -all
+# STRICT_LAUNCH scene=0 ordinary=0 source=  K2
+# STRICT_SCENE_PASS scene=0 ordinary=0 style=0 commits=1 audio=0 title=0
+# STRICT_LAUNCH scene=1 ordinary=1 source=AUTO
+# STRICT_SCENE_PASS scene=1 ordinary=1 style=0 commits=2 audio=1 title=1
+# STRICT_LAUNCH scene=2 ordinary=2 source=  K2
+# STRICT_SCENE_PASS scene=2 ordinary=2 style=1 commits=3 audio=2 title=2
+# STRICT_LAUNCH scene=3 ordinary=3 source=AUTO
+# STRICT_SCENE_PASS scene=3 ordinary=3 style=0 commits=4 audio=3 title=3
+# STRICT_LAUNCH scene=0 ordinary=4 source=  K2
+# STRICT_SCENE_PASS scene=0 ordinary=4 style=1 commits=5 audio=0 title=0
+# STRICT_LAUNCH scene=1 ordinary=5 source=AUTO
+# STRICT_SCENE_PASS scene=1 ordinary=5 style=0 commits=6 audio=1 title=1
+# STRICT_LAUNCH scene=2 ordinary=6 source=  K2
+# STRICT_SCENE_PASS scene=2 ordinary=6 style=1 commits=7 audio=2 title=2
+# STRICT_LAUNCH scene=3 ordinary=7 source=AUTO
+# STRICT_SCENE_PASS scene=3 ordinary=7 style=0 commits=8 audio=3 title=3
+# STRICT_LAUNCH scene=0 ordinary=8 source=  K2
+# STRICT_SCENE_PASS scene=0 ordinary=8 style=1 commits=9 audio=0 title=0
+# STRICT_LAUNCH scene=0 ordinary=0 source=  K2
+# STRICT_SCENE_PASS scene=0 ordinary=0 style=0 commits=10 audio=0 title=0
+# STRICT_LAUNCH scene=1 ordinary=1 source=AUTO
+# STRICT_SCENE_PASS scene=1 ordinary=1 style=0 commits=11 audio=1 title=1
+# STRICT_TRANSITION_PASS two_rounds=8 boot_excluded=1 reset_restart=1 pixels=248832000 frames=270 slide_frames=136 fade_frames=100 wait=27 cancels=2 busy_requests=11 identity=11 FULL=1
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/transitions/tb_strict_fade_slide.sv(168)
+#    Time: 3351325349008 ps  Iteration: 1  Instance: /tb_strict_fade_slide
+# Break at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/transitions/tb_strict_fade_slide.sv line 168
+# Stopped at E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/current/transitions/tb_strict_fade_slide.sv line 168
+# quit -f
+# End time: 18:49:59 on Nov 03,2026, Elapsed time: 0:05:24
+# Errors: 0, Warnings: 0

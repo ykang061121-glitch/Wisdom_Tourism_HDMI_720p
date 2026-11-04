@@ -1,0 +1,54 @@
+PASS 00 silence: dominant_band=0 peak_power=0 peak_height=0 process_wait=655476
+PASS 01 440Hz_amp0.8_real_sample_cadence: dominant_band=4 peak_power=37945762 peak_height=229 process_wait=653938
+PASS 02 880Hz_amp0.8: dominant_band=6 peak_power=35535530 peak_height=228 process_wait=655476
+PASS 03 440Hz_amp0.4: dominant_band=4 peak_power=9490721 peak_height=205 process_wait=655476
+PASS 04 440Hz_amp0.2: dominant_band=4 peak_power=2373953 peak_height=181 process_wait=655476
+PASS 05 440_plus_880_two_tones: dominant_band=4 peak_power=7299394 peak_height=199 process_wait=655476
+PASS 06 sample_valid_pause_same_440: dominant_band=4 peak_power=37945762 peak_height=229 process_wait=655476
+PASS 07 6000_plus_12000_two_tones: dominant_band=12 peak_power=8209277 peak_height=202 process_wait=655476
+PASS 08 negative_control_same_pcm_different_song_label: dominant_band=4 peak_power=37945762 peak_height=229 process_wait=655476
+PASS 09 negative_control_shuffled_pcm: dominant_band=10 peak_power=1062685 peak_height=168 process_wait=655476
+PASS 10 fullscale_positive_dc: dominant_band=0 peak_power=67108864 peak_height=240 process_wait=655476
+PASS 11 fullscale_negative_dc: dominant_band=0 peak_power=67092482 peak_height=238 process_wait=655476
+PASS 12 fullscale_alternating_nyquist: dominant_band=15 peak_power=67092481 peak_height=238 process_wait=655476
+PASS 13 fullscale_noise: dominant_band=14 peak_power=1264612 peak_height=169 process_wait=655476
+PASS 14 fullscale_impulse: dominant_band=0 peak_power=4096 peak_height=72 process_wait=655476
+PASS 15 original_DDS_song1_note0: dominant_band=2 peak_power=5861069 peak_height=196 process_wait=655476
+PASS 16 original_DDS_song1_note1: dominant_band=2 peak_power=6036850 peak_height=196 process_wait=655476
+PASS 17 original_DDS_song1_note2: dominant_band=3 peak_power=4579585 peak_height=192 process_wait=655476
+PASS 18 original_DDS_song1_note3: dominant_band=3 peak_power=5909800 peak_height=196 process_wait=655476
+PASS 19 original_DDS_song1_note4: dominant_band=3 peak_power=4509985 peak_height=192 process_wait=655476
+PASS 20 original_DDS_song1_note5: dominant_band=2 peak_power=6047869 peak_height=196 process_wait=655476
+PASS 21 original_DDS_song1_note6: dominant_band=3 peak_power=5928772 peak_height=196 process_wait=655476
+PASS 22 original_DDS_song1_note7: dominant_band=4 peak_power=4917746 peak_height=193 process_wait=655476
+PASS 23 original_DDS_song2_note0: dominant_band=0 peak_power=4881265 peak_height=193 process_wait=655476
+PASS 24 original_DDS_song2_note1: dominant_band=1 peak_power=6120740 peak_height=196 process_wait=655476
+PASS 25 original_DDS_song2_note2: dominant_band=1 peak_power=5742073 peak_height=195 process_wait=655476
+PASS 26 original_DDS_song2_note3: dominant_band=1 peak_power=4698512 peak_height=192 process_wait=655476
+PASS 27 original_DDS_song2_note4: dominant_band=0 peak_power=4716797 peak_height=192 process_wait=655476
+PASS 28 original_DDS_song2_note5: dominant_band=1 peak_power=5689853 peak_height=195 process_wait=655476
+PASS 29 original_DDS_song2_note6: dominant_band=1 peak_power=6119908 peak_height=196 process_wait=655476
+PASS 30 original_DDS_song2_note7: dominant_band=2 peak_power=5843954 peak_height=196 process_wait=655476
+PASS 31 original_DDS_song3_note0: dominant_band=2 peak_power=5861069 peak_height=196 process_wait=655476
+PASS 32 original_DDS_song3_note1: dominant_band=3 peak_power=4533416 peak_height=192 process_wait=655476
+PASS 33 original_DDS_song3_note2: dominant_band=3 peak_power=5935045 peak_height=196 process_wait=655476
+PASS 34 original_DDS_song3_note3: dominant_band=4 peak_power=4854482 peak_height=193 process_wait=655476
+PASS 35 original_DDS_song3_note4: dominant_band=3 peak_power=5924932 peak_height=196 process_wait=655476
+PASS 36 original_DDS_song3_note5: dominant_band=3 peak_power=4496481 peak_height=192 process_wait=655476
+PASS 37 original_DDS_song3_note6: dominant_band=3 peak_power=5905997 peak_height=196 process_wait=655476
+PASS 38 original_DDS_song3_note7: dominant_band=4 peak_power=4852882 peak_height=193 process_wait=655476
+PASS 39 original_DDS_song4_note0: dominant_band=4 peak_power=5485085 peak_height=195 process_wait=655476
+PASS 40 original_DDS_song4_note1: dominant_band=4 peak_power=4962101 peak_height=193 process_wait=655476
+PASS 41 original_DDS_song4_note2: dominant_band=5 peak_power=6176309 peak_height=196 process_wait=655476
+PASS 42 original_DDS_song4_note3: dominant_band=4 peak_power=5616392 peak_height=195 process_wait=655476
+PASS 43 original_DDS_song4_note4: dominant_band=4 peak_power=5606237 peak_height=195 process_wait=655476
+PASS 44 original_DDS_song4_note5: dominant_band=3 peak_power=5934389 peak_height=196 process_wait=655476
+PASS 45 original_DDS_song4_note6: dominant_band=4 peak_power=4964945 peak_height=193 process_wait=655476
+PASS 46 original_DDS_song4_note7: dominant_band=4 peak_power=5493332 peak_height=195 process_wait=655476
+PASS all 47 snapshots bit-exact against independent integer matrix DFT.
+PASS independent floating FFT: max relative significant-band power error 2.158667%.
+PASS independent floating FFT: max peak-band power error 0.154903%.
+PASS amplitude x2 -> power x4; two-tone bands; PCM shuffle and metadata-label negative controls.
+PASS all four original DDS songs, all eight notes, input pause, capture/processing reset, full-scale inputs and overrun detection.
+PASS continuous 25MHz-equivalent input: three snapshots match 440Hz/880Hz/silence references; exact 2048*521 cycle spacing; outputs atomic and stable; no overrun.
+

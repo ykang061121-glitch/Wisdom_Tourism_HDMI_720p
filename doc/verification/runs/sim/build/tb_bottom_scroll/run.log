@@ -1,0 +1,34 @@
+Reading D:/modelism10.4/tcl/vsim/pref.tcl
+
+# 10.4
+
+# vsim -c work.tb_bottom_scroll -do "run -all; quit -f" 
+# Start time: 18:45:12 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bottom_scroll.v(16): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 30.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_bottom_scroll.v(16): (vopt-2718) [TFMPC] - Missing connection for port 'error_status'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_bottom_scroll(fast)
+# run -all
+# BOTTOM_SCROLL_TEST_PASS frame_events=10432 cycles=2 wraps=6 pixels=10786944 foreground=987794 shadow=379343 hidden=567600 original_speed all_messages clipping switch_fade_commit_independent
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_bottom_scroll.v(97)
+#    Time: 434399640 ns  Iteration: 1  Instance: /tb_bottom_scroll
+# End time: 18:45:35 on Nov 03,2026, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2

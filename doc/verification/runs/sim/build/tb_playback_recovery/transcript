@@ -1,0 +1,70 @@
+# vsim -c work.tb_playback_recovery -do "run -all; quit -f" 
+# Start time: 18:46:22 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_16_32_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\IP\afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2685) [TFMPC] - Too few port connections for 'write_buf'.  Expected 14, found 11.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2718) [TFMPC] - Missing connection for port 'aempty'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2718) [TFMPC] - Missing connection for port 'afull'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(106): (vopt-2718) [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2685) [TFMPC] - Too few port connections for 'read_buf'.  Expected 14, found 11.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2718) [TFMPC] - Missing connection for port 'aempty'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2718) [TFMPC] - Missing connection for port 'afull'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD\frame_read_write.v(159): (vopt-2718) [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_playback_recovery.v(48): (vopt-2685) [TFMPC] - Too few port connections for 'source'.  Expected 40, found 36.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_playback_recovery.v(48): (vopt-2718) [TFMPC] - Missing connection for port 'osd_scaling_meta'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_playback_recovery.v(48): (vopt-2718) [TFMPC] - Missing connection for port 'video_busy_observed'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_playback_recovery.v(48): (vopt-2718) [TFMPC] - Missing connection for port 'key_interval_event'.
+# 
+# ** Warning: E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\tb_playback_recovery.v(48): (vopt-2718) [TFMPC] - Missing connection for port 'key_auto_event'.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_playback_recovery(fast)
+# run -all
+# RECOVERY_CASE_PASS fault=1 error=e0 target=1
+# RECOVERY_CASE_PASS fault=2 error=e1 target=2
+# RECOVERY_CASE_PASS fault=3 error=e2 target=3
+# RECOVERY_CASE_PASS fault=4 error=e3 target=0
+# RECOVERY_CHECKER_REJECT ent recovery/effect/PCM coverage
+# ** Fatal: recovery invariant
+#    Time: 36551420 ns  Scope: tb_playback_recovery.reject File: E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_playback_recovery.v Line: 98
+# ** Note: $finish    : E:/FPGA/Wisdom_Tourism_HDMI_720p/sim/tb_playback_recovery.v(98)
+#    Time: 36551420 ns  Iteration: 1  Instance: /tb_playback_recovery
+# End time: 18:46:30 on Nov 03,2026, Elapsed time: 0:00:08
+# Errors: 1, Warnings: 19

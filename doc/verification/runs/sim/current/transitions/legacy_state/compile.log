@@ -1,0 +1,14 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 18:50:00 on Nov 03,2026
+vlog -sv "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\SD" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\src\td_project" "+incdir+E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\scaling\fixtures" E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\slide_transition_ctrl.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\video_fade.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\transitions\legacy_F879_picture_transition.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\image_audio_cdc.v E:\FPGA\Wisdom_Tourism_HDMI_720p\src\user_source\hdl_source\scene_notice.v E:\FPGA\Wisdom_Tourism_HDMI_720p\sim\current\transitions\tb_strict_fade_slide.sv 
+-- Compiling module slide_transition_ctrl
+-- Compiling module video_fade
+-- Compiling module picture_transition
+-- Compiling module image_audio_cdc
+-- Compiling module scene_notice
+-- Compiling module tb_strict_fade_slide
+
+Top level modules:
+	tb_strict_fade_slide
+End time: 18:50:00 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
