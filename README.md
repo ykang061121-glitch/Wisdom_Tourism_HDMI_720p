@@ -1,0 +1,2 @@
+# Wisdom_Tourism_HDMI_720p
+基于安路FPGA的智慧文旅HDMI音画展示系统
